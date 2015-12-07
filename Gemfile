@@ -45,3 +45,15 @@ group :development do
   gem 'spring'
 end
 
+gem 'websocket-rails'
+gem 'jwt'
+
+
+
+
+
+
+
+
+
+
