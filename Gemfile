@@ -47,7 +47,10 @@ end
 
 gem 'websocket-rails'
 gem 'jwt'
-
+gem 'puma'
+gem 'annotate'
+gem 'thin'
+gem 'rails-erd'
 
 
 
