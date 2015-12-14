@@ -14,19 +14,6 @@ gem 'coffee-rails', github: "rails/coffee-rails"
 gem 'jquery-rails'
 gem 'turbolinks'
 
-gem 'sidekiq'
-
-gem 'bcrypt-ruby'
-
-gem 'omniauth'
-gem 'omniauth-twitter'
-gem 'settingslogic'
-gem 'twitter'
-
-
-gem 'better_errors'
-gem 'binding_of_caller'
-
 gem 'jbuilder', '~> 2.0'
 
 group :development, :test do
@@ -36,5 +23,4 @@ end
 group :development do
   gem 'web-console', github: 'rails/web-console'
   gem 'spring'
-  gem 'gravtastic'
 end

@@ -1,9 +1,261 @@
-<h1>Authenticate as one of the following users</h1>
 
-<p>
-  <ul>
-    <% @users.each do |user| %>
-      <li><%= link_to user.name, session_url(user_id: user.id), method: :post %></li>
-    <% end %>
-  </ul>
-</p>
+<!--
+<head prefix='og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# mixlrcom: http://ogp.me/ns/fb/mixlrcom#'>
+-->
+	<meta content='Mixlr is a simple way to share live audio online. Broadcast using any source and invite others to listen and chat in real-time.' name='Description' />
+	<meta content='broadcast, audio, live, sound, tracks, music, crowd, mixlr' name='keywords' />
+	<meta content='NOARCHIVE' name='googlebot' />
+	<meta content='width=device-width,initial-scale=1,user-scalable=no' name='viewport' />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="mixlr-accept-language-value" content="ja" />
+	<meta name="apple-itunes-app" content="app-id=583705714, affiliate-data=, app-argument=">
+	<title>
+		Mixlr is a simple way to share live audio online. Broadcast using ...
+	</title>
+	<!-- %meta{:content => "maximum-scale=1.0", :name => "viewport"} -->
+	<link href='/favicon.ico' rel='shortcut icon' type='image/x-icon' />
+	<script src="//connect.soundcloud.com/sdk.js" type="text/JavaScript" async="async"></script>
+	<script type='text/javascript'>
+  //<![CDATA[
+  window.V2Layout = true;
+  //]]>
+</script>
+
+<!--
+<link href='https://fast.fonts.com/cssapi/7f7bd88b-d0aa-4348-a270-851b08fd98ab.css' rel='stylesheet' type='text/css' />
+<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
+-->
+
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<!-- nginx SSI -->
+
+<!-- end -->
+
+
+
+
+<meta content='365158934875' property='fb:app_id' />
+<meta content="http://mixlr.com/images/Mixlr-logo-200x200.png" property="og:image" />
+<meta content="Mixlr" property="og:title" />
+<meta content="Mixlr is a simple way to share live audio online. Broadcast using any source and invite others to listen and chat in real-time." property="og:description" />
+<meta content="http://mixlr.com" property="og:url" />
+<meta content="Mixlr" property="og:site_name" />
+<meta content="website" property="og:type" />
+
+</head>
+<body class='home_index home index' id='mixlr'>
+	<header id="main_header" role="masthead">
+		<h1>
+			<a href="/">
+				<span class="masthead_icon"></span>
+				<span class="visuallyhidden">Mixlr</span>
+			</a>
+		</h1>
+		<nav id="off_canvas_navigation">
+			<a id="main_navigation_trigger">
+				<span class="menu_icon icon-masthead_menu"></span>
+				<span class="screen_reader_text">Menu</span>
+			</a>
+			<a id="main_search_trigger">
+					<span class="menu_icon icon-masthead_search"></span>
+					<span class="screen_reader_text">Search</span>
+			</a>
+		</nav>
+	</header>
+	<div id='fb-root'></div>
+	<div id='facebook_like_dropdown'>
+		<div class="fb-like" data-href="http://facebook.com/mixlr" data-send="false" data-width="292" data-show-faces="true"></div>
+	</div>
+	<div id='dropdown'>
+		<span></span>
+		<div class='close close-left'></div>
+		<div class='close close-right'></div>
+	</div>
+
+
+<section id='main_content'>
+
+	<img src="/images/v2loading.gif" style="display:none"/>
+
+	<div class='big_wrapper'>
+
+		<div class='container'>
+			!!!!!!!!!!!!!!!!!!!!!
+			<h1>Authenticate as one of the following users</h1>
+			11111111111111111111
+			<p>
+				<ul>aaaaaaaa
+					<% @users.each do |user| %>
+					bbbbbbbb
+					<li><%= link_to user.name, session_url(user_id: user.id), method: :post %></li>
+					ccccc
+					<% end %>
+					dddddddd
+				</ul>
+				eeeeee
+			</p>
+			<br>
+
+
+			<div class='apps'>
+				<div class='desktop'>
+					<img src='/images/DesktopApp_Preview_W840_200.png'>
+					<h3>Broadcast from desktop</h3>
+					<div class='download_apps'>
+						<a href='http://cdn.mixlr.com/MixlrInstaller.exe'>
+							<img src='/images/Windows_Download_Button_H80.png' />
+						</a>
+						<a href='http://cdn.mixlr.com/Mixlr.dmg'>
+							<img src='/images/download_mac.png' />
+						</a>
+					</div>
+				</img>
+			</div>
+			<div class='mobile'>
+				<img src='/images/iPhoneApp_Preview_W840_200.png'>
+				<h3>Broadcast from mobile / tablet</h3>
+				<div class='download_apps'>
+					<a href='https://play.google.com/store/apps/details?id=com.mixlr.android'>
+						<img src='/images/Android_PlayStoreButton_H80px.png' />
+					</a>
+					<a href='https://itunes.apple.com/app/mixlr/id583705714'>
+						<img src='/images/Mac_Download_Button_H80.png' />
+					</a>
+				</div>
+			</img>
+		</div>
+	</div>
+	<div class='links'>
+		<a href='#learn_more'>Learn more</a>
+	</div>
+	<div class='row'>
+		<div>
+			<h2>Broadcast to the world with just one click</h2>
+			<p>We handle the technology, you concentrate on the content. Starting your first broadcast is easy, just hit the big button and go live.</p>
+		</div>
+		<div>
+			<img src='/images/OneTouchLiveAudio_BcastButton_W840_200.png' />
+		</div>
+	</div>
+	<div class='row'>
+		<div>
+			<h2>Schedule events</h2>
+			<p>Promote your next broadcast in advance by scheduling an event before you go live. Grow your listeners by sharing your upcoming events, and we’ll remind them just before your event is set to begin.</p>
+		</div>
+		<div>
+			<img src='/images/EventIconWithReminder_Red_H260@200.png' />
+		</div>
+	</div>
+	<div class='row'>
+		<div>
+			<h2>Embed live audio on your website or blog</h2>
+			<p>Take your live audio to your own home with our customisable embeddable player.</p>
+		</div>
+		<div>
+			<img src='/images/EmbeddablePlayer_2.0_W840_200.png' />
+		</div>
+	</div>
+	<div class='row'>
+		<div>
+			<h2>Tune in directly from Facebook and Twitter</h2>
+			<p>Just share your livepage, friends or followers can listen directly on Facebook and Twitter.</p>
+		</div>
+		<div>
+			<img src='/images/Embed_Facebook_Twitter_W840_200.png' />
+		</div>
+	</div>
+	<div class='row'>
+		<div>
+			<h2>Build a community around your live sounds</h2>
+			<p>Turn your live audio into a shared social experience. Chat, engage and interact with your listeners in real-time.</p>
+		</div>
+		<div>
+			<img src='/images/Chat-Heart-Etc-W840_200.png' />
+		</div>
+	</div>
+	<div class='row'>
+		<div>
+			<h2>HQ recording and export to your favourite archive services</h2>
+			<p>Seamless recording, right inside the app. When your live broadcast is over, one-click export to SoundCloud, Dropbox, Mixcloud and more.</p>
+		</div>
+		<div>
+			<img src='/images/Export_W840_200.png' />
+		</div>
+	</div>
+	<div class='row'>
+		<div>
+			<h2>Personalise your own livepage and create your own home</h2>
+			<p>Add your own artwork, biography, categories, map, links to your own site and social media pages, and more...</p>
+		</div>
+		<div>
+			<img src='/images/iPad_Livepage_CrowdComments_W840_200.png' />
+		</div>
+	</div>
+</div>
+</div>
+
+<footer id='footer'>
+	<p>
+		<a href="http://facebook.com/mixlr" class="facebook" target="_blank">Find us on Facebook</a>
+		<a href="http://twitter.com/mixlr" class="twitter" target="_blank">Follow us on Twitter</a>
+	</p>
+	<ul>
+		<li><a href="/learn">About Us</a></li>
+		<li><a href="/priceplans">Price Plans</a></li>
+		<li><a href="http://blog.mixlr.com">Blog</a></li>
+		<li><a href="http://support.mixlr.com">Support</a></li>
+		<li><a href="/terms-of-use">Terms of Use</a></li>
+		<li><a href="/privacy">Privacy</a></li>
+	</ul>
+	<p>&copy; Mixlr Ltd 2015 - All rights reserved</p>
+	<div class='logo'></div>
+	<div class='mixlr'></div>
+</footer>
+
+</section>
+
+<script type='text/javascript'>
+  //<![CDATA[
+  var token = document.getElementById("csrf_token").getAttribute("value");
+  if( token ) {
+  	Mixlr.data.authToken = token;
+  }
+  if(window.google) {
+  	google.load('maps', "3.x", {"other_params":"sensor=false&libraries=visualization"});
+  }
+  //]]>
+</script>
+<script type='text/javascript'>
+  //<![CDATA[
+  window.SM2_DEFER = true;
+  //]]>
+</script>
+
+<script type='text/javascript'>
+  //<![CDATA[
+  WEB_SOCKET_SWF_LOCATION = "/WebSocketMain.swf";
+
+
+  if( document.location.search.match(/websocket_debug/) ) {
+  	WEB_SOCKET_DEBUG = 1;
+  }
+  //]]>
+</script>
+
+<script type='text/javascript'>
+  //<![CDATA[
+  window.HOME_PAGE = true;
+  //]]>
+</script>
+
+<script type='text/javascript'>
+  //<![CDATA[
+    // show the 'mobile site' link in the footer, even for page-cached requests:
+    if( navigator.userAgent.match(/iphone|ipad|ipod|android/i) ) {
+    	$('li.mobile:first').show();
+    }
+  //]]>
+</script>
+</body>
