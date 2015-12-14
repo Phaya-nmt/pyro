@@ -6,10 +6,102 @@
   <%= javascript_include_tag 'application', 'data-turbolinks-track': true %>
   <%= csrf_meta_tags %>
   <meta name="current-user" id="<%= @current_user.try(:id) %>">
+    <!-- %meta{:content => "maximum-scale=1.0", :name => "viewport"} -->
+  <link href='/favicon.ico' rel='shortcut icon' type='image/x-icon' />
+  <script src="//connect.soundcloud.com/sdk.js" type="text/JavaScript" async="async"></script>
+  <script type='text/javascript'>
+  //<![CDATA[
+  window.V2Layout = true;
+  //]]>
+</script>
+
+<!--
+<link href='https://fast.fonts.com/cssapi/7f7bd88b-d0aa-4348-a270-851b08fd98ab.css' rel='stylesheet' type='text/css' />
+<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
+-->
+
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<!-- nginx SSI -->
+
+<!-- end -->
 </head>
-<body>
+<body class='home_index home index' id='mixlr'>
+  <header id="main_header" role="masthead">
+    <h1>
+      <a href="/">
+        <span class="masthead_icon"></span>
+        <span class="visuallyhidden">Mixlr</span>
+      </a>
+    </h1>
+    <nav id="off_canvas_navigation">
+      <a id="main_navigation_trigger">
+        <span class="menu_icon icon-masthead_menu"></span>
+        <span class="screen_reader_text">Menu</span>
+      </a>
+      <a id="main_search_trigger">
+          <span class="menu_icon icon-masthead_search"></span>
+          <span class="screen_reader_text">Search</span>
+      </a>
+    </nav>
+  </header>
+  <div id='fb-root'></div>
+  <div id='facebook_like_dropdown'>
+    <div class="fb-like" data-href="http://facebook.com/mixlr" data-send="false" data-width="292" data-show-faces="true"></div>
+  </div>
+  <div id='dropdown'>
+    <span></span>
+    <div class='close close-left'></div>
+    <div class='close close-right'></div>
+  </div>
+
 
 <%= yield %>
 
+
+
+<script type='text/javascript'>
+  //<![CDATA[
+  var token = document.getElementById("csrf_token").getAttribute("value");
+  if( token ) {
+    Mixlr.data.authToken = token;
+  }
+  if(window.google) {
+    google.load('maps', "3.x", {"other_params":"sensor=false&libraries=visualization"});
+  }
+  //]]>
+</script>
+<script type='text/javascript'>
+  //<![CDATA[
+  window.SM2_DEFER = true;
+  //]]>
+</script>
+
+<script type='text/javascript'>
+  //<![CDATA[
+  WEB_SOCKET_SWF_LOCATION = "/WebSocketMain.swf";
+
+
+  if( document.location.search.match(/websocket_debug/) ) {
+    WEB_SOCKET_DEBUG = 1;
+  }
+  //]]>
+</script>
+
+<script type='text/javascript'>
+  //<![CDATA[
+  window.HOME_PAGE = true;
+  //]]>
+</script>
+
+<script type='text/javascript'>
+  //<![CDATA[
+    // show the 'mobile site' link in the footer, even for page-cached requests:
+    if( navigator.userAgent.match(/iphone|ipad|ipod|android/i) ) {
+      $('li.mobile:first').show();
+    }
+  //]]>
+</script>
 </body>
 </html>
