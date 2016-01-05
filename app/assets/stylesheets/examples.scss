@@ -24,7 +24,7 @@
 		left:0;
 		width:40px;
 		height:480px;
-		background-image:url(../fancybox/fancybox.png?1405582389)
+		// background-image:url(../fancybox/fancybox.png?1405582389)
 	}
 	#fancybox-overlay {
 		position:absolute;
@@ -91,7 +91,7 @@
 		display:none
 	}
 	a#fancybox-close-link {
-		background:url(/images/mixlr_sprite.png?1405605063) no-repeat 0 -2874px;
+		// background:url(/images/mixlr_sprite.png?1405605063) no-repeat 0 -2874px;
 		display:block;
 		position:absolute;
 		height:14px;
@@ -160,11 +160,11 @@
 		display:block
 	}
 	#fancybox-left-ico {
-		background-image:url(../fancybox/fancybox.png?1405582389);
+		// background-image:url(../fancybox/fancybox.png?1405582389);
 		background-position:-40px -30px
 	}
 	#fancybox-right-ico {
-		background-image:url(../fancybox/fancybox.png?1405582389);
+		// background-image:url(../fancybox/fancybox.png?1405582389);
 		background-position:-40px -60px
 	}
 	#fancybox-left:hover,#fancybox-right:hover {
@@ -202,7 +202,7 @@
 	}
 	#fancybox-title-over {
 		padding:10px;
-		background-image:url(../fancybox/fancy_title_over.png?1405582389);
+		// background-image:url(../fancybox/fancy_title_over.png?1405582389);
 		display:block
 	}
 	.fancybox-title-float {
@@ -222,18 +222,18 @@
 	}
 	#fancybox-title-float-left {
 		padding:0 0 0 15px;
-		background:url(../fancybox/fancybox.png?1405582389) -40px -90px no-repeat
+		// background:url(../fancybox/fancybox.png?1405582389) -40px -90px no-repeat
 	}
 	#fancybox-title-float-main {
 		color:#FFF;
 		line-height:29px;
 		font-weight:bold;
 		padding:0 0 3px 0;
-		background:url(../fancybox/fancybox-x.png?1405582389) 0 -40px
+		// background:url(../fancybox/fancybox-x.png?1405582389) 0 -40px
 	}
 	#fancybox-title-float-right {
 		padding:0 0 0 15px;
-		background:url(../fancybox/fancybox.png?1405582389) -55px -90px no-repeat
+		// background:url(../fancybox/fancybox.png?1405582389) -55px -90px no-repeat
 	}
 	.fancybox-ie6 #fancybox-close {
 		background:transparent;
@@ -425,8 +425,8 @@
 	}
 	@font-face {
 		font-family:'Haettenschweiler';
-		src:url(/fonts/mixlr_icons.eot?1449496384);
-		src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
+		// src:url(/fonts/mixlr_icons.eot?1449496384);
+		// src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
 		font-weight:normal;
 		font-style:normal
 	}
@@ -601,8 +601,8 @@
 	}
 	@font-face {
 		font-family:'Haettenschweiler';
-		src:url(/fonts/mixlr_icons.eot?1449496384);
-		src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
+		// src:url(/fonts/mixlr_icons.eot?1449496384);
+		// src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
 		font-weight:normal;
 		font-style:normal
 	}
@@ -752,7 +752,7 @@
 		width:70px;
 		margin:0 auto 15px;
 		display:block;
-		background:url(/images/EmbeddablePlayer_Preloader.gif?1405582389) no-repeat center center
+		// background:url(/images/EmbeddablePlayer_Preloader.gif?1405582389) no-repeat center center
 	}
 	#loading_panel .loading_message p {
 		font-family:"DIN Next W02 Medium","Helvetica Neue Roman",Helvetica,arial,sans-serif;
@@ -1026,7 +1026,7 @@
 		border-bottom:12px solid #fc3
 	}
 	.heart {
-		background:url(/images/mixlr_sprite.png?1405605063) no-repeat 13px -1944px;
+		// background:url(/images/mixlr_sprite.png?1405605063) no-repeat 13px -1944px;
 		border:1px solid gray;
 		display:block;
 		height:69px;
@@ -1073,7 +1073,7 @@
 		border-color:#ed1c24
 	}
 	.heart_small {
-		background:url(/images/mixlr_sprite.png?1405605063);
+		// background:url(/images/mixlr_sprite.png?1405605063);
 		background-repeat:no-repeat;
 		background-position:2px -1836px;
 		border:1px solid gray;
@@ -1138,7 +1138,7 @@
 		text-align:center
 	}
 	#header>.header_container>nav>ul>li.facebook_link>a {
-		background:url(/images/facebook_icon_small.png?1405582389) 42px 16px no-repeat;
+		// background:url(/images/facebook_icon_small.png?1405582389) 42px 16px no-repeat;
 		padding-left:45px
 	}
 	#header>.header_container>nav>ul>li.app_link {
@@ -3143,8 +3143,8 @@
 	}
 	@font-face {
 		font-family:'Haettenschweiler';
-		src:url(/fonts/mixlr_icons.eot?1449496384);
-		src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
+		// src:url(/fonts/mixlr_icons.eot?1449496384);
+		// src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
 		font-weight:normal;
 		font-style:normal
 	}
@@ -4584,8 +4584,8 @@
 	}
 	@font-face {
 		font-family:'Haettenschweiler';
-		src:url(/fonts/mixlr_icons.eot?1449496384);
-		src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
+		// src:url(/fonts/mixlr_icons.eot?1449496384);
+		// src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
 		font-weight:normal;
 		font-style:normal
 	}
@@ -4788,7 +4788,7 @@
 	@font-face {
 		font-family:'Haettenschweiler';
 		// src:url(/fonts/mixlr_icons.eot?1449496384);
-		src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
+		// src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
 		font-weight:normal;
 		font-style:normal
 	}
@@ -5448,8 +5448,8 @@
 	}
 	@font-face {
 		font-family:'Haettenschweiler';
-		src:url(/fonts/mixlr_icons.eot?1449496384);
-		src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
+		// src:url(/fonts/mixlr_icons.eot?1449496384);
+		// src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
 		font-weight:normal;
 		font-style:normal
 	}
@@ -5777,8 +5777,8 @@
 	}
 	@font-face {
 		font-family:'Haettenschweiler';
-		src:url(/fonts/mixlr_icons.eot?1449496384);
-		src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
+		// src:url(/fonts/mixlr_icons.eot?1449496384);
+		// src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
 		font-weight:normal;
 		font-style:normal
 	}
@@ -6232,7 +6232,7 @@
 		display:none
 	}
 	#broadcaster_details>.broadcast_links>li {
-		background-image:url(/images/mixlr_sprite.png?1405605063);
+		// background-image:url(/images/mixlr_sprite.png?1405605063);
 		background-repeat:no-repeat;
 		background-color:white;
 		border-left:1px solid #b3b3b3;
@@ -6371,7 +6371,7 @@
 	}
 	.user_links_out>li>a {
 		background-color:white;
-		background-image:url(/images/mixlr_sprite.png?1405605063);
+		// background-image:url(/images/mixlr_sprite.png?1405605063);
 		background-repeat:no-repeat;
 		display:block;
 		height:30px;
@@ -7205,7 +7205,7 @@
 		color:#b3b3b3
 	}
 	#broadcast_archive {
-		background:url(/images/transparent_white.png?1405582390);
+		// background:url(/images/transparent_white.png?1405582390);
 		background:rgba(250,250,250,0.9);
 		height:100%;
 		overflow-y:scroll;
@@ -7220,7 +7220,7 @@
 		padding-bottom:.5em
 	}
 	#broadcast_archive>#archived_broadcasts>.close_archive {
-		background:url(/images/mixlr_sprite.png?1405605063) no-repeat 0 -2874px;
+		// background:url(/images/mixlr_sprite.png?1405605063) no-repeat 0 -2874px;
 		display:block;
 		float:right;
 		height:15px;
@@ -7240,7 +7240,7 @@
 		overflow-x:hidden
 	}
 	#broadcaster_choose>div {
-		background:url(/images/choose_view_header.png?1405582389) no-repeat 50% 30px;
+		// background:url(/images/choose_view_header.png?1405582389) no-repeat 50% 30px;
 		height:100%;
 		padding-top:30px
 	}
@@ -7292,7 +7292,7 @@
 		margin-top:10px
 	}
 	#broadcast_playlist>#playlist_header>.schedule_broadcast {
-		background:url(/images/mixlr_sprite.png?1405605063) no-repeat 0 -2888px;
+		// background:url(/images/mixlr_sprite.png?1405605063) no-repeat 0 -2888px;
 		display:block;
 		font-size:.615em;
 		float:left;
@@ -7313,7 +7313,7 @@
 		top:9px
 	}
 	#broadcast_playlist>#playlist_header>.download_link {
-		background:url(/images/v2_download_app.png?1405582390) no-repeat top left;
+		// background:url(/images/v2_download_app.png?1405582390) no-repeat top left;
 		border-left:1px solid #b3b3b3;
 		display:block;
 		height:90px;
@@ -7768,7 +7768,7 @@
 		width:56px
 	}
 	#playlist_bar>.playlist_actions>li>a {
-		background-image:url(/images/mixlr_sprite.png?1405605063);
+		// background-image:url(/images/mixlr_sprite.png?1405605063);
 		background-repeat:no-repeat;
 		display:block;
 		height:30px;
@@ -8291,7 +8291,7 @@
 		background:#2e2d28!important
 	}
 	#broadcast_view.autechre>#broadcast_crowd {
-		background-image:url();
+		// background-image:url();
 		background-repeat:no-repeat;
 		background-position:center center;
 		background-size:cover
@@ -9594,7 +9594,7 @@
 		text-overflow:ellipsis
 	}
 	div#search_results>section>ul>li.result>a>.frame>.stats_area.stats_fade_out {
-		background:url(/v2/stylesheets/images/masthead/bg-section01.png?1405605064) repeat-y
+		// background:url(/v2/stylesheets/images/masthead/bg-section01.png?1405605064) repeat-y
 	}
 	div#search_results>section>ul>li.result>a>.frame>.inform_stats {
 		display:none;
@@ -9603,7 +9603,7 @@
 		margin:-10px -7px -15px -20px;
 		padding:17px 0 15px 20px;
 		color:#808080;
-		background:url(/v2/stylesheets/images/masthead/bg-section02.png?1405605064) repeat-y;
+		// background:url(/v2/stylesheets/images/masthead/bg-section02.png?1405605064) repeat-y;
 		text-align:right;
 		font:12px/16px 'DINNextRoundedLTW01-Reg',Arial,Helvetica,sans-serif
 	}
@@ -9615,7 +9615,7 @@
 		display:inline-block;
 		vertical-align:top;
 		padding:0 6px 0 9px;
-		background:url(/v2/stylesheets/images/masthead/mixlr_sprite.png?1405582390) no-repeat 0 -5012px
+		// background:url(/v2/stylesheets/images/masthead/mixlr_sprite.png?1405582390) no-repeat 0 -5012px
 	}
 	div#search_results>section>ul>li.result>a>.frame>.inform_stats li:first-child {
 		background:none;
@@ -9633,7 +9633,7 @@
 		position:absolute;
 		top:2px;
 		left:0;
-		background:url(/v2/stylesheets/images/masthead/mixlr_sprite.png?1405582390) no-repeat 0 -4743px;
+		// background:url(/v2/stylesheets/images/masthead/mixlr_sprite.png?1405582390) no-repeat 0 -4743px;
 		width:7px;
 		height:10px
 	}
@@ -9641,7 +9641,7 @@
 		padding-left:19px
 	}
 	div#search_results>section>ul>li.result>a>.frame>.inform_stats .heart_icon span:after {
-		background:url(/v2/stylesheets/images/masthead/mixlr_sprite.png?1405582390) no-repeat 0 -4757px;
+		// background:url(/v2/stylesheets/images/masthead/mixlr_sprite.png?1405582390) no-repeat 0 -4757px;
 		width:11px;
 		height:10px
 	}
@@ -9649,7 +9649,7 @@
 		padding-left:20px
 	}
 	div#search_results>section>ul>li.result>a>.frame>.inform_stats .comment_icon span:after {
-		background:url(/v2/stylesheets/images/masthead/mixlr_sprite.png?1405582390) no-repeat 0 -4771px;
+		// background:url(/v2/stylesheets/images/masthead/mixlr_sprite.png?1405582390) no-repeat 0 -4771px;
 		width:13px;
 		height:10px
 	}
@@ -9664,8 +9664,8 @@
 	}
 	@font-face {
 		font-family:'Haettenschweiler';
-		src:url(/fonts/mixlr_icons.eot?1449496384);
-		src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
+		// src:url(/fonts/mixlr_icons.eot?1449496384);
+		// src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
 		font-weight:normal;
 		font-style:normal
 	}
@@ -10239,13 +10239,13 @@
 	.lt-ie9 .container nav {
 		border-top:none;
 		padding-left:50px;
-		background:url(/images/app/cog.png?1405582389) 27px 2px no-repeat scroll
+		// background:url(/images/app/cog.png?1405582389) 27px 2px no-repeat scroll
 	}
 	@media screen and (min-width:31.25em) {
 		.container nav {
 			border-top:none;
 			padding-left:50px;
-			background:url(/images/app/cog.png?1405582389) 27px 2px no-repeat scroll
+			// background:url(/images/app/cog.png?1405582389) 27px 2px no-repeat scroll
 		}
 	}
 	.container nav>ul>li {
@@ -10489,7 +10489,7 @@
 	.edit_premium span.success,.price_plans_receipts span.success,.show_live_stream_url span.success,.show_stats span.success {
 		padding-left:16px;
 		color:#b3b3b3;
-		background:url(/images/ok-small.png?1405582389) left no-repeat
+		// background:url(/images/ok-small.png?1405582389) left no-repeat
 	}
 	.edit_premium span.warning,.price_plans_receipts span.warning,.show_live_stream_url span.warning,.show_stats span.warning {
 		color:#ed1c24
@@ -10504,7 +10504,7 @@
 	.edit_premium form fieldset ul li,.price_plans_receipts form fieldset ul li,.show_live_stream_url form fieldset ul li,.show_stats form fieldset ul li {
 		margin-bottom:2px;
 		padding-left:16px;
-		background:url(/images/ok-small.png?1405582389) left center no-repeat
+		// background:url(/images/ok-small.png?1405582389) left center no-repeat
 	}
 	.edit_premium .field_wrapper a,.edit_premium .field_wrapper a:visited,.price_plans_receipts .field_wrapper a,.price_plans_receipts .field_wrapper a:visited,.show_live_stream_url .field_wrapper a,.show_live_stream_url .field_wrapper a:visited,.show_stats .field_wrapper a,.show_stats .field_wrapper a:visited {
 		color:#f2555b;
@@ -10942,8 +10942,8 @@
 	}
 	@font-face {
 		font-family:'Haettenschweiler';
-		src:url(/fonts/mixlr_icons.eot?1449496384);
-		src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
+		// src:url(/fonts/mixlr_icons.eot?1449496384);
+		// src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
 		font-weight:normal;
 		font-style:normal
 	}
@@ -10972,8 +10972,8 @@
 	}
 	@font-face {
 		font-family:'Haettenschweiler';
-		src:url(/fonts/mixlr_icons.eot?1449496384);
-		src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
+		// src:url(/fonts/mixlr_icons.eot?1449496384);
+		// src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
 		font-weight:normal;
 		font-style:normal
 	}
@@ -11008,8 +11008,8 @@
 	}
 	@font-face {
 		font-family:'Haettenschweiler';
-		src:url(/fonts/mixlr_icons.eot?1449496384);
-		src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
+		// src:url(/fonts/mixlr_icons.eot?1449496384);
+		// src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
 		font-weight:normal;
 		font-style:normal
 	}
@@ -11192,8 +11192,8 @@
 
 	@font-face {
 		font-family:'Haettenschweiler';
-		src:url(/fonts/mixlr_icons.eot?1449496384);
-		src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
+		// src:url(/fonts/mixlr_icons.eot?1449496384);
+		// src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
 		font-weight:normal;
 		font-style:normal
 	}
@@ -12008,7 +12008,7 @@
 		transition:opacity .3s ease-in-out
 	}
 	.choose_loading_overlay>.image {
-		background-image:url(/images/event_preloader_64px.gif?1439803013);
+		// background-image:url(/images/event_preloader_64px.gif?1439803013);
 		display:block;
 		margin:230px auto 40px auto;
 		width:64px;
@@ -12368,8 +12368,8 @@
 	}
 	@font-face {
 		font-family:'Haettenschweiler';
-		src:url(/fonts/mixlr_icons.eot?1449496384);
-		src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
+		// src:url(/fonts/mixlr_icons.eot?1449496384);
+		// src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
 		font-weight:normal;
 		font-style:normal
 	}
@@ -12432,8 +12432,8 @@
 	}
 	@font-face {
 		font-family:'Haettenschweiler';
-		src:url(/fonts/mixlr_icons.eot?1449496384);
-		src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
+		// src:url(/fonts/mixlr_icons.eot?1449496384);
+		// src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
 		font-weight:normal;
 		font-style:normal
 	}
@@ -12456,7 +12456,7 @@
 		behavior:url(/PIE.htc?1405582389)
 	}
 	#about_showreel_background {
-		background:url(/images/mixlr_office.png?1405582389) no-repeat center center fixed
+		// background:url(/images/mixlr_office.png?1405582389) no-repeat center center fixed
 	}
 	#about_showreel_background #about_showreel_wrapper {
 		background:rgba(250,250,250,0.9);
@@ -12503,8 +12503,8 @@
 	}
 	@font-face {
 		font-family:'Haettenschweiler';
-		src:url(/fonts/mixlr_icons.eot?1449496384);
-		src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
+		// src:url(/fonts/mixlr_icons.eot?1449496384);
+		// src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
 		font-weight:normal;
 		font-style:normal
 	}
@@ -12598,8 +12598,8 @@
 	}
 	@font-face {
 		font-family:'Haettenschweiler';
-		src:url(/fonts/mixlr_icons.eot?1449496384);
-		src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
+		// src:url(/fonts/mixlr_icons.eot?1449496384);
+		// src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
 		font-weight:normal;
 		font-style:normal
 	}
@@ -12643,8 +12643,8 @@
 	}
 	@font-face {
 		font-family:'Haettenschweiler';
-		src:url(/fonts/mixlr_icons.eot?1449496384);
-		src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
+		// src:url(/fonts/mixlr_icons.eot?1449496384);
+		// src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
 		font-weight:normal;
 		font-style:normal
 	}
@@ -12668,8 +12668,8 @@
 	}
 	@font-face {
 		font-family:'Haettenschweiler';
-		src:url(/fonts/mixlr_icons.eot?1449496384);
-		src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
+		// src:url(/fonts/mixlr_icons.eot?1449496384);
+		// src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
 		font-weight:normal;
 		font-style:normal
 	}
@@ -12756,7 +12756,7 @@
 		margin:0
 	}
 	#shoutbox>ul>li>a {
-		background-image:url(/images/mixlr_sprite.png?1405605063);
+		// background-image:url(/images/mixlr_sprite.png?1405605063);
 		background-repeat:no-repeat;
 		text-indent:-9999px;
 		display:block;
@@ -13075,8 +13075,8 @@
 	}
 	@font-face {
 		font-family:'Haettenschweiler';
-		src:url(/fonts/mixlr_icons.eot?1449496384);
-		src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
+		// src:url(/fonts/mixlr_icons.eot?1449496384);
+		// src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
 		font-weight:normal;
 		font-style:normal
 	}
@@ -13103,7 +13103,7 @@
 	}
 	#embed_announcement .img_holder {
 		height:181px;
-		background:#f2f2f2 url(/images/EmbeddablePlayer_Preloader.gif?1405582389) no-repeat center center;
+		// background:#f2f2f2 url(/images/EmbeddablePlayer_Preloader.gif?1405582389) no-repeat center center;
 		position:relative;
 		margin:0 auto 6px
 	}
@@ -13128,7 +13128,7 @@
 		font-family:Helvetica Neue,Helvetica,Arial,sans-serif
 	}
 	#embed_artworkform a#close_upload_form {
-		background:url(/images/embed_sprite.png?1405605063) no-repeat -143px -18px;
+		// background:url(/images/embed_sprite.png?1405605063) no-repeat -143px -18px;
 		width:13px;
 		height:12px;
 		position:absolute;
@@ -13296,7 +13296,7 @@
 		}
 	}
 	.player_embed_options_wrapper .color_picker #reset_color {
-		background:url(/player/images/trash_can.jpg) no-repeat;
+		// background:url(/player/images/trash_can.jpg) no-repeat;
 		padding-left:18px
 	}
 	.player_embed_options_wrapper .color_picker #reset_color:hover {
@@ -13607,7 +13607,7 @@
 		margin-bottom:20px;
 		height:180px;
 		width:100%;
-		background:#f2f2f2 url(/images/EmbeddablePlayer_Preloader.gif?1405582389) no-repeat center center
+		background:#f2f2f2;
 	}
 	.sp-container {
 		position:absolute;
@@ -13964,7 +13964,7 @@
 	}
 	.sp-preview,.sp-alpha,.sp-thumb-el {
 		position:relative;
-		background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAIAAADZF8uwAAAAGUlEQVQYV2M4gwH+YwCGIasIUwhT25BVBADtzYNYrHvv4gAAAABJRU5ErkJggg==)
+		// background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAIAAADZF8uwAAAAGUlEQVQYV2M4gwH+YwCGIasIUwhT25BVBADtzYNYrHvv4gAAAABJRU5ErkJggg==)
 	}
 	.sp-preview-inner,.sp-alpha-inner,.sp-thumb-inner {
 		display:block;
@@ -13979,15 +13979,15 @@
 		background-repeat:no-repeat
 	}
 	.sp-palette .sp-thumb-light.sp-thumb-active .sp-thumb-inner {
-		background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAIVJREFUeNpiYBhsgJFMffxAXABlN5JruT4Q3wfi/0DsT64h8UD8HmpIPCWG/KemIfOJCUB+Aoacx6EGBZyHBqI+WsDCwuQ9mhxeg2A210Ntfo8klk9sOMijaURm7yc1UP2RNCMbKE9ODK1HM6iegYLkfx8pligC9lCD7KmRof0ZhjQACDAAceovrtpVBRkAAAAASUVORK5CYII=)
+		// background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAIVJREFUeNpiYBhsgJFMffxAXABlN5JruT4Q3wfi/0DsT64h8UD8HmpIPCWG/KemIfOJCUB+Aoacx6EGBZyHBqI+WsDCwuQ9mhxeg2A210Ntfo8klk9sOMijaURm7yc1UP2RNCMbKE9ODK1HM6iegYLkfx8pligC9lCD7KmRof0ZhjQACDAAceovrtpVBRkAAAAASUVORK5CYII=)
 	}
 	.sp-palette .sp-thumb-dark.sp-thumb-active .sp-thumb-inner {
-		background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAadEVYdFNvZnR3YXJlAFBhaW50Lk5FVCB2My41LjEwMPRyoQAAAMdJREFUOE+tkgsNwzAMRMugEAahEAahEAZhEAqlEAZhEAohEAYh81X2dIm8fKpEspLGvudPOsUYpxE2BIJCroJmEW9qJ+MKaBFhEMNabSy9oIcIPwrB+afvAUFoK4H0tMaQ3XtlrggDhOVVMuT4E5MMG0FBbCEYzjYT7OxLEvIHQLY2zWwQ3D+9luyOQTfKDiFD3iUIfPk8VqrKjgAiSfGFPecrg6HN6m/iBcwiDAo7WiBeawa+Kwh7tZoSCGLMqwlSAzVDhoK+6vH4G0P5wdkAAAAASUVORK5CYII=)
+		// background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAadEVYdFNvZnR3YXJlAFBhaW50Lk5FVCB2My41LjEwMPRyoQAAAMdJREFUOE+tkgsNwzAMRMugEAahEAahEAZhEAqlEAZhEAohEAYh81X2dIm8fKpEspLGvudPOsUYpxE2BIJCroJmEW9qJ+MKaBFhEMNabSy9oIcIPwrB+afvAUFoK4H0tMaQ3XtlrggDhOVVMuT4E5MMG0FBbCEYzjYT7OxLEvIHQLY2zWwQ3D+9luyOQTfKDiFD3iUIfPk8VqrKjgAiSfGFPecrg6HN6m/iBcwiDAo7WiBeawa+Kwh7tZoSCGLMqwlSAzVDhoK+6vH4G0P5wdkAAAAASUVORK5CYII=)
 	}
 	@font-face {
 		font-family:'Haettenschweiler';
-		src:url(/fonts/mixlr_icons.eot?1449496384);
-		src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
+		// src:url(/fonts/mixlr_icons.eot?1449496384);
+		// src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
 		font-weight:normal;
 		font-style:normal
 	}
@@ -14657,8 +14657,8 @@
 	}
 	@font-face {
 		font-family:'Haettenschweiler';
-		src:url(/fonts/mixlr_icons.eot?1449496384);
-		src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
+		// src:url(/fonts/mixlr_icons.eot?1449496384);
+		// src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
 		font-weight:normal;
 		font-style:normal
 	}
@@ -15228,8 +15228,8 @@
 	}
 	@font-face {
 		font-family:'Haettenschweiler';
-		src:url(/fonts/mixlr_icons.eot?1449496384);
-		src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
+		// src:url(/fonts/mixlr_icons.eot?1449496384);
+		// src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
 		font-weight:normal;
 		font-style:normal
 	}
@@ -15450,8 +15450,8 @@
 	}
 	@font-face {
 		font-family:'Haettenschweiler';
-		src:url(/fonts/mixlr_icons.eot?1449496384);
-		src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
+		// src:url(/fonts/mixlr_icons.eot?1449496384);
+		// src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
 		font-weight:normal;
 		font-style:normal
 	}
@@ -15495,7 +15495,7 @@
 		text-indent:-999em;
 		direction:ltr;
 		*line-height:0;
-		background:url(/images/sign_up_close.png?1405582390) no-repeat 0 0;
+		// background:url(/images/sign_up_close.png?1405582390) no-repeat 0 0;
 		height:25px;
 		width:25px;
 		z-index:999
@@ -15686,8 +15686,8 @@
 	}
 	@font-face {
 		font-family:'Haettenschweiler';
-		src:url(/fonts/mixlr_icons.eot?1449496384);
-		src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
+		// src:url(/fonts/mixlr_icons.eot?1449496384);
+		// src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
 		font-weight:normal;
 		font-style:normal
 	}
@@ -15818,7 +15818,7 @@
 		text-indent:-999em;
 		direction:ltr;
 		*line-height:0;
-		background:url(/images/download_mac.png?1433246901) no-repeat 0 0;
+		// background:url(/images/download_mac.png?1433246901) no-repeat 0 0;
 		height:40px;
 		width:150px;
 		display:inline-block;
@@ -15834,7 +15834,7 @@
 		text-indent:-999em;
 		direction:ltr;
 		*line-height:0;
-		background:url(/images/Download_windows_App.png?1405582389) no-repeat 0 0;
+		// background:url(/images/Download_windows_App.png?1405582389) no-repeat 0 0;
 		height:40px;
 		width:140px;
 		display:inline-block;
@@ -15882,7 +15882,7 @@
 		text-indent:-999em;
 		direction:ltr;
 		*line-height:0;
-		background:url(/images/Download_on_the_App_Store_Badge.png?1405582389) no-repeat 0 0;
+		// background:url(/images/Download_on_the_App_Store_Badge.png?1405582389) no-repeat 0 0;
 		height:40px;
 		width:135px;
 		display:inline-block;
@@ -15898,7 +15898,7 @@
 		text-indent:-999em;
 		direction:ltr;
 		*line-height:0;
-		background:url(/images/Download_on_the_Play_Store_Button.png?1408621680) no-repeat 0 0;
+		// background:url(/images/Download_on_the_Play_Store_Button.png?1408621680) no-repeat 0 0;
 		height:40px;
 		width:120px;
 		display:inline-block;
@@ -16011,8 +16011,8 @@
 	}
 	@font-face {
 		font-family:'Haettenschweiler';
-		src:url(/fonts/mixlr_icons.eot?1449496384);
-		src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
+		// src:url(/fonts/mixlr_icons.eot?1449496384);
+		// src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
 		font-weight:normal;
 		font-style:normal
 	}
@@ -16092,21 +16092,21 @@
 	.banner_message .soundcloud_playlist_icon {
 		top:10px;
 		left:28px;
-		background:url(/images/icon_soundcloud_playlist.png?1405582389) no-repeat;
+		// background:url(/images/icon_soundcloud_playlist.png?1405582389) no-repeat;
 		height:36px;
 		width:25px
 	}
 	.banner_message .beta_app_icon {
 		top:8px;
 		left:23px;
-		background:url(/images/icon_mixlr_beta_banner.png?1405582389) no-repeat;
+		// background:url(/images/icon_mixlr_beta_banner.png?1405582389) no-repeat;
 		height:41px;
 		width:41px
 	}
 	.banner_message .mixlr_logo_icon {
 		top:8px;
 		left:23px;
-		background:url(/images/icon_mixlr_logo_banner.png?1405582389) no-repeat;
+		// background:url(/images/icon_mixlr_logo_banner.png?1405582389) no-repeat;
 		height:41px;
 		width:41px
 	}
@@ -16462,8 +16462,8 @@
 	}
 	@font-face {
 		font-family:'Haettenschweiler';
-		src:url(/fonts/mixlr_icons.eot?1449496384);
-		src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
+		// src:url(/fonts/mixlr_icons.eot?1449496384);
+		// src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
 		font-weight:normal;
 		font-style:normal
 	}
@@ -16974,8 +16974,8 @@
 	}
 	@font-face {
 		font-family:'Haettenschweiler';
-		src:url(/fonts/mixlr_icons.eot?1449496384);
-		src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
+		// src:url(/fonts/mixlr_icons.eot?1449496384);
+		// src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
 		font-weight:normal;
 		font-style:normal
 	}
@@ -17108,8 +17108,8 @@
 	}
 	@font-face {
 		font-family:'Haettenschweiler';
-		src:url(/fonts/mixlr_icons.eot?1449496384);
-		src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
+		// src:url(/fonts/mixlr_icons.eot?1449496384);
+		// src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
 		font-weight:normal;
 		font-style:normal
 	}
@@ -17523,11 +17523,11 @@
 		height:28px;
 		width:32px;
 		margin:-10px 0 0 -15px;
-		background:url(/images/mixlr_live_page_sprite.png?1405605063) no-repeat -55px -294px
+		// background:url(/images/mixlr_live_page_sprite.png?1405605063) no-repeat -55px -294px
 	}
 	@media only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min-device-pixel-ratio:2) {
 		#broadcast_masthead #mixlr_player_status.buffering .player_button {
-			background-image:url(/images/mixlr_live_page_sprite@2.png?1405605063);
+			// background-image:url(/images/mixlr_live_page_sprite@2.png?1405605063);
 			background-size:180px 1500px
 		}
 	}
@@ -17535,7 +17535,7 @@
 		cursor:pointer
 	}
 	#broadcast_masthead #mixlr_player_status.playing .player_button {
-		background:url(/images/volume_playing_grey_Med.gif?1405605064) no-repeat center center
+		// background:url(/images/volume_playing_grey_Med.gif?1405605064) no-repeat center center
 	}
 	.ui-effects-wrapper {
 		display:inline
@@ -17817,7 +17817,7 @@
 		text-indent:-999em;
 		direction:ltr;
 		*line-height:0;
-		background:url(/images/icon_arrow.png?1405605063) no-repeat center center;
+		// background:url(/images/icon_arrow.png?1405605063) no-repeat center center;
 		height:46px;
 		width:40px;
 		position:absolute;
@@ -17835,7 +17835,7 @@
 	}
 	@media only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min-device-pixel-ratio:2) {
 		.lt-ie9 .broadcast_main_controls #masthead_toggle {
-			background-image:url(/images/icon_arrow@2.png?1405605063);
+			// background-image:url(/images/icon_arrow@2.png?1405605063);
 			background-size:15px 13px
 		}
 	}
@@ -17867,7 +17867,7 @@
 			text-indent:-999em;
 			direction:ltr;
 			*line-height:0;
-			background:url(/images/icon_arrow.png?1405605063) no-repeat center center;
+			// background:url(/images/icon_arrow.png?1405605063) no-repeat center center;
 			height:46px;
 			width:40px;
 			position:absolute;
@@ -17898,7 +17898,7 @@
 	}
 	@media only screen and (min-width:31.25em) and (-webkit-min-device-pixel-ratio:2),only screen and (min-width:31.25em) and (min-device-pixel-ratio:2) {
 		.broadcast_main_controls #masthead_toggle {
-			background-image:url(/images/icon_arrow@2.png?1405605063);
+			// background-image:url(/images/icon_arrow@2.png?1405605063);
 			background-size:15px 13px
 		}
 	}
@@ -19017,7 +19017,7 @@
 	#crowd header .invite_button>.facebook_share_button {
 		width:56px;
 		height:20px;
-		background:url(/images/mixlr_sprite.png?1405605063) no-repeat -3px -6389px;
+		// background:url(/images/mixlr_sprite.png?1405605063) no-repeat -3px -6389px;
 		cursor:pointer
 	}
 	#crowd header .invite_button>.facebook_share_button:hover {
@@ -19093,11 +19093,11 @@
 		margin:0 auto
 	}
 	#crowd #broadcast_overlay .app_download_buttons a#download_mac_app {
-		background:url(/images/Download_on_the_Mac_App_Store_Badge.png?1405582389) no-repeat 0 0;
+		// background:url(/images/Download_on_the_Mac_App_Store_Badge.png?1405582389) no-repeat 0 0;
 		width:165px
 	}
 	#crowd #broadcast_overlay .app_download_buttons a#download_windows_app {
-		background:url(/images/Download_windows_App.png?1405582389) no-repeat 0 0;
+		// background:url(/images/Download_windows_App.png?1405582389) no-repeat 0 0;
 		width:140px
 	}
 	#crowd .signup_overlay {
@@ -19573,13 +19573,13 @@
 		direction:ltr;
 		*line-height:0;
 		display:inline-block;
-		background:url(/images/mixlr_live_page_sprite.png?1405605063) no-repeat -1px -160px;
+		// background:url(/images/mixlr_live_page_sprite.png?1405605063) no-repeat -1px -160px;
 		width:16px;
 		height:14px
 	}
 	@media only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min-device-pixel-ratio:2) {
 		.broadcaster_details_sidebar .volume .volume_icon {
-			background-image:url(/images/mixlr_live_page_sprite@2.png?1405605063);
+			// background-image:url(/images/mixlr_live_page_sprite@2.png?1405605063);
 			background-size:180px 1500px
 		}
 	}
@@ -19587,14 +19587,14 @@
 		cursor:pointer
 	}
 	.broadcaster_details_sidebar .volume .volume_icon.live {
-		background:url(/images/volume_playing_white.gif?1405582390) no-repeat
+		// background:url(/images/volume_playing_white.gif?1405582390) no-repeat
 	}
 	.broadcaster_details_sidebar .volume .volume_icon.mute {
-		background:url(/images/mixlr_live_page_sprite.png?1405605063) no-repeat -68px -160px
+		// background:url(/images/mixlr_live_page_sprite.png?1405605063) no-repeat -68px -160px
 	}
 	@media only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min-device-pixel-ratio:2) {
 		.broadcaster_details_sidebar .volume .volume_icon.mute {
-			background-image:url(/images/mixlr_live_page_sprite@2.png?1405605063);
+			// background-image:url(/images/mixlr_live_page_sprite@2.png?1405605063);
 			background-size:180px 1500px
 		}
 	}
@@ -19605,14 +19605,14 @@
 		margin-right:10px;
 		width:110px;
 		height:15px;
-		background:url(/images/volume_back_light.png?1405605064)
+		// background:url(/images/volume_back_light.png?1405605064)
 	}
 	.broadcaster_details_sidebar #volume_bar:hover {
 		cursor:pointer
 	}
 	.broadcaster_details_sidebar #volume_bar .ui-slider-range {
 		height:15px;
-		background:url(/images/volume_back.png?1405605064)
+		// background:url(/images/volume_back.png?1405605064)
 	}
 	.broadcaster_details_sidebar #volume_bar .ui-slider-handle {
 		position:absolute;
@@ -19624,7 +19624,7 @@
 		width:1px;
 		height:2px;
 		margin-left:-2px;
-		background:url(/images/volume_back.png?1405605064);
+		// background:url(/images/volume_back.png?1405605064);
 		-webkit-transition:opacity .2s ease-in-out;
 		-moz-transition:opacity .2s ease-in-out;
 		-ms-transition:opacity .2s ease-in-out;
@@ -20233,7 +20233,7 @@
 		text-indent:-999em;
 		direction:ltr;
 		*line-height:0;
-		background:url(/images/mixlr_live_page_sprite.png?1405605063) no-repeat -116px -234px;
+		// background:url(/images/mixlr_live_page_sprite.png?1405605063) no-repeat -116px -234px;
 		width:30px;
 		height:6px;
 		position:absolute;
@@ -20242,7 +20242,7 @@
 	}
 	@media only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min-device-pixel-ratio:2) {
 		.comment_list a.comment_options.delete_comment_option {
-			background-image:url(/images/mixlr_live_page_sprite@2.png?1405605063);
+			// background-image:url(/images/mixlr_live_page_sprite@2.png?1405605063);
 			background-size:180px 1500px
 		}
 	}
@@ -20397,7 +20397,7 @@
 		position:absolute;
 		top:4px;
 		right:9px;
-		background-image:url(/images/mixlr_live_page_sprite.png?1405605063);
+		// background-image:url(/images/mixlr_live_page_sprite.png?1405605063);
 		background-repeat:no-repeat;
 		background-position:-145px -342px;
 		width:20px;
@@ -20405,7 +20405,7 @@
 	}
 	@media only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min-device-pixel-ratio:2) {
 		.comment_profile_popup p.links a.share_btn:after {
-			background-image:url(/images/mixlr_live_page_sprite@2.png?1405605063);
+			// background-image:url(/images/mixlr_live_page_sprite@2.png?1405605063);
 			background-size:180px 1500px
 		}
 	}
@@ -20726,7 +20726,7 @@
 		display:block;
 		min-height:150px;
 		width:100%;
-		background-image:url(/images/placeholder_artwork.png?1405582390);
+		// background-image:url(/images/placeholder_artwork.png?1405582390);
 		background-repeat:no-repeat;
 		background-color:#4d4d4d;
 		background-position:center center;
@@ -21014,13 +21014,13 @@
 		position:absolute;
 		top:14px;
 		right:20px;
-		background:url(/images/mixlr_live_page_sprite.png?1405605063) no-repeat -1px -194px;
+		// background:url(/images/mixlr_live_page_sprite.png?1405605063) no-repeat -1px -194px;
 		height:25px;
 		width:25px
 	}
 	@media only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min-device-pixel-ratio:2) {
 		#user_info .user_info_title #close_info {
-			background-image:url(/images/mixlr_live_page_sprite@2.png?1405605063);
+			// background-image:url(/images/mixlr_live_page_sprite@2.png?1405605063);
 			background-size:180px 1500px
 		}
 	}
@@ -21312,7 +21312,7 @@
 		max-width:300px;
 		max-height:300px;
 		float:left;
-		background-image:url(/images/placeholder_artwork.png?1405582390);
+		// background-image:url(/images/placeholder_artwork.png?1405582390);
 		background-repeat:no-repeat;
 		background-color:#4d4d4d;
 		background-position:center center;
@@ -21480,7 +21480,7 @@
 		text-indent:-999em;
 		direction:ltr;
 		*line-height:0;
-		background:url(/images/mixlr_live_page_sprite.png?1405605063);
+		// background:url(/images/mixlr_live_page_sprite.png?1405605063);
 		height:20px;
 		width:20px;
 		float:left;
@@ -21488,7 +21488,7 @@
 	}
 	@media only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min-device-pixel-ratio:2) {
 		#user_info ul li span.icon {
-			background-image:url(/images/mixlr_live_page_sprite@2.png?1405605063);
+			// background-image:url(/images/mixlr_live_page_sprite@2.png?1405605063);
 			background-size:180px 1500px
 		}
 	}
@@ -21936,8 +21936,8 @@
 	}
 	@font-face {
 		font-family:'Haettenschweiler';
-		src:url(/fonts/mixlr_icons.eot?1449496384);
-		src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
+		// src:url(/fonts/mixlr_icons.eot?1449496384);
+		// src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
 		font-weight:normal;
 		font-style:normal
 	}
@@ -22112,8 +22112,8 @@
 	}
 	@font-face {
 		font-family:'Haettenschweiler';
-		src:url(/fonts/mixlr_icons.eot?1449496384);
-		src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
+		// src:url(/fonts/mixlr_icons.eot?1449496384);
+		// src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
 		font-weight:normal;
 		font-style:normal
 	}
@@ -22163,8 +22163,8 @@
 	}
 	@font-face {
 		font-family:'Haettenschweiler';
-		src:url(/fonts/mixlr_icons.eot?1449496384);
-		src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
+		// src:url(/fonts/mixlr_icons.eot?1449496384);
+		// src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
 		font-weight:normal;
 		font-style:normal
 	}
@@ -22383,8 +22383,8 @@
 	}
 	@font-face {
 		font-family:'Haettenschweiler';
-		src:url(/fonts/mixlr_icons.eot?1449496384);
-		src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
+		// src:url(/fonts/mixlr_icons.eot?1449496384);
+		// src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
 		font-weight:normal;
 		font-style:normal
 	}
@@ -22506,8 +22506,8 @@
 	}
 	@font-face {
 		font-family:'Haettenschweiler';
-		src:url(/fonts/mixlr_icons.eot?1449496384);
-		src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
+		// src:url(/fonts/mixlr_icons.eot?1449496384);
+		// src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
 		font-weight:normal;
 		font-style:normal
 	}
@@ -22656,8 +22656,8 @@
 	}
 	@font-face {
 		font-family:'Haettenschweiler';
-		src:url(/fonts/mixlr_icons.eot?1449496384);
-		src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
+		// src:url(/fonts/mixlr_icons.eot?1449496384);
+		// src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
 		font-weight:normal;
 		font-style:normal
 	}
@@ -22721,7 +22721,7 @@
 		transition:opacity .3s ease-in-out
 	}
 	.create_events>.loading_overlay.choose>.image,.edit_events>.loading_overlay.choose>.image {
-		background-image:url(/images/event_preloader_64px.gif?1439803013);
+		// background-image:url(/images/event_preloader_64px.gif?1439803013);
 		display:block;
 		margin:80px auto 40px auto;
 		width:64px;
@@ -23309,27 +23309,27 @@
 		}
 	}
 	.events_show #main_content header .date.past {
-		background-image:url(/images/CalendarStatusIcon_PastStrikeThru_Sm_HW35.png?1439803013);
+		// background-image:url(/images/CalendarStatusIcon_PastStrikeThru_Sm_HW35.png?1439803013);
 		background-position:center
 	}
 	.lt-ie9 .events_show #main_content header .date.past {
-		background-image:url(/images/diagonal_white.png?1439803013)
+		// background-image:url(/images/diagonal_white.png?1439803013)
 	}
 	@media screen and (min-width:37.5em) {
 		.events_show #main_content header .date.past {
-			background-image:url(/images/diagonal_white.png?1439803013)
+			// background-image:url(/images/diagonal_white.png?1439803013)
 		}
 	}
 	.events_show #main_content header .date.cancelled {
-		background-image:url(/images/CalendarStatusIcon_CancelledCross_Sm_HW35.png?1439803013);
+		// background-image:url(/images/CalendarStatusIcon_CancelledCross_Sm_HW35.png?1439803013);
 		background-position:center
 	}
 	.lt-ie9 .events_show #main_content header .date.cancelled {
-		background-image:url(/images/cross_white.png?1439803013)
+		// background-image:url(/images/cross_white.png?1439803013)
 	}
 	@media screen and (min-width:37.5em) {
 		.events_show #main_content header .date.cancelled {
-			background-image:url(/images/cross_white.png?1439803013)
+			// background-image:url(/images/cross_white.png?1439803013)
 		}
 	}
 	.events_show #main_content header .date .day {
@@ -23586,11 +23586,11 @@
 		pointer-events:none
 	}
 	.event .date_corner.past {
-		background-image:url(/images/CalendarStatusIcon_PastStrikeThru_Sm_HW35.png?1439803013);
+		// background-image:url(/images/CalendarStatusIcon_PastStrikeThru_Sm_HW35.png?1439803013);
 		background-position:center
 	}
 	.event .date_corner.cancelled {
-		background-image:url(/images/CalendarStatusIcon_CancelledCross_Sm_HW35.png?1439803013);
+		// background-image:url(/images/CalendarStatusIcon_CancelledCross_Sm_HW35.png?1439803013);
 		background-position:center
 	}
 	.event .date_corner .day {
@@ -23608,15 +23608,15 @@
 		bottom:5px
 	}
 	.event.hero_event .date_corner.cancelled {
-		background-image:url(/images/CalendarStatusIcon_CancelledCross_Sm_HW35.png?1439803013);
+		// background-image:url(/images/CalendarStatusIcon_CancelledCross_Sm_HW35.png?1439803013);
 		background-position:center
 	}
 	.lt-ie9 .event.hero_event .date_corner.cancelled {
-		background-image:url(/images/cross_white.png?1439803013)
+		// background-image:url(/images/cross_white.png?1439803013)
 	}
 	@media screen and (min-width:37.5em) {
 		.event.hero_event .date_corner.cancelled {
-			background-image:url(/images/cross_white.png?1439803013)
+			// background-image:url(/images/cross_white.png?1439803013)
 		}
 	}
 	.event .listen_live {
@@ -25144,8 +25144,8 @@
 	}
 	@font-face {
 		font-family:'Haettenschweiler';
-		src:url(/fonts/mixlr_icons.eot?1449496384);
-		src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
+		// src:url(/fonts/mixlr_icons.eot?1449496384);
+		// src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
 		font-weight:normal;
 		font-style:normal
 	}
@@ -25407,8 +25407,8 @@
 	}
 	@font-face {
 		font-family:'Haettenschweiler';
-		src:url(/fonts/mixlr_icons.eot?1449496384);
-		src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
+		// src:url(/fonts/mixlr_icons.eot?1449496384);
+		// src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
 		font-weight:normal;
 		font-style:normal
 	}
