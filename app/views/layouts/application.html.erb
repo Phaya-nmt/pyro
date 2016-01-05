@@ -6,7 +6,7 @@
   <%= javascript_include_tag 'application', 'data-turbolinks-track': true %>
   <%= csrf_meta_tags %>
   <meta name="current-user" id="<%= @current_user.try(:id) %>">
-    <!-- %meta{:content => "maximum-scale=1.0", :name => "viewport"} -->
+  <!-- %meta{:content => "maximum-scale=1.0", :name => "viewport"} -->
   <link href='/favicon.ico' rel='shortcut icon' type='image/x-icon' />
   <script src="//connect.soundcloud.com/sdk.js" type="text/JavaScript" async="async"></script>
   <script type='text/javascript'>
@@ -29,10 +29,10 @@
 </head>
 <body class='home_index home index' id='mixlr'>
   <header id="main_header" role="masthead">
-    <h1>
-      <a href="/">
+    <h1><!-- 
+      <a href="/"> -->
         <span class="masthead_icon"></span>
-        <span class="visuallyhidden">Mixlr</span>
+        <span class="visuallyhidden"></span>
       </a>
     </h1>
     <nav id="off_canvas_navigation">
@@ -41,37 +41,54 @@
         <span class="screen_reader_text">Menu</span>
       </a>
       <a id="main_search_trigger">
-          <span class="menu_icon icon-masthead_search"></span>
-          <span class="screen_reader_text">Search</span>
+        <span class="menu_icon icon-masthead_search"></span>
+        <span class="screen_reader_text">Search</span>
       </a>
     </nav>
   </header>
   <div id='fb-root'></div>
   <div id='facebook_like_dropdown'>
-    <div class="fb-like" data-href="http://facebook.com/mixlr" data-send="false" data-width="292" data-show-faces="true"></div>
+    <div class="fb-like" data-href="" data-send="false" data-width="292" data-show-faces="true"></div>
   </div>
   <div id='dropdown'>
     <span></span>
     <div class='close close-left'></div>
     <div class='close close-right'></div>
   </div>
+<div  style="margin-top:15px; background: #EEE;">
 
+  <%= yield %>
 
-<%= yield %>
+</div>
+  <footer id='footer'>
+    <p>
+      <a href="http://facebook.com/" class="facebook" target="_blank">Find us on Facebook</a>
+      <a href="http://twitter.com/" class="twitter" target="_blank">Follow us on Twitter</a>
+    </p>
+    <ul>
+      <li><a href="/learn">About Us</a></li>
+      <li><a href="/priceplans">Price Plans</a></li>
+      <li><a href="">Blog</a></li>
+      <li><a href="">Support</a></li>
+      <li><a href="/terms-of-use">Terms of Use</a></li>
+      <li><a href="/privacy">Privacy</a></li>
+    </ul><!-- 
+    <div class='logo'></div>
+    <div class=''></div> -->
+  </footer>
 
-
-
-<script type='text/javascript'>
-  //<![CDATA[
-  var token = document.getElementById("csrf_token").getAttribute("value");
-  if( token ) {
-    Mixlr.data.authToken = token;
-  }
-  if(window.google) {
-    google.load('maps', "3.x", {"other_params":"sensor=false&libraries=visualization"});
-  }
-  //]]>
+  <script type='text/javascript'>
+  // //<![CDATA[
+  // var token = document.getElementById("csrf_token").getAttribute("value");
+  // if( token ) {
+  //   Mixlr.data.authToken = token;
+  // }
+  // if(window.google) {
+  //   google.load('maps', "3.x", {"other_params":"sensor=false&libraries=visualization"});
+  // }
+  // //]]>
 </script>
+
 <script type='text/javascript'>
   //<![CDATA[
   window.SM2_DEFER = true;

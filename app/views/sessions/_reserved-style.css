@@ -19,7 +19,6 @@
 		left:0;
 		width:40px;
 		height:480px;
-		background-image:url(../fancybox/fancybox.png?1405582389)
 	}
 	#fancybox-overlay {
 		position:absolute;
@@ -85,8 +84,8 @@
 	#fancybox-close {
 		display:none
 	}
-	a#fancybox-close-link {
-		background:url(/images/mixlr_sprite.png?1405605063) no-repeat 0 -2874px;
+	a#fancybox-close-link {/*
+		background:url(/images/mixlr_sprite.png?1405605063) no-repeat 0 -2874px;*/
 		display:block;
 		position:absolute;
 		height:14px;
@@ -132,8 +131,8 @@
 		height:100%;
 		width:35%;
 		cursor:pointer;
-		outline:none;
-		background:transparent url(../fancybox/blank.gif?1405582389);
+		outline:none;/*
+		background:transparent url(../fancybox/blank.gif?1405582389);*/
 		z-index:1102;
 		display:none
 	}
@@ -154,12 +153,12 @@
 		z-index:1102;
 		display:block
 	}
-	#fancybox-left-ico {
-		background-image:url(../fancybox/fancybox.png?1405582389);
+	#fancybox-left-ico {/*
+		background-image:url(../fancybox/fancybox.png?1405582389);*/
 		background-position:-40px -30px
 	}
-	#fancybox-right-ico {
-		background-image:url(../fancybox/fancybox.png?1405582389);
+	#fancybox-right-ico {/*
+		background-image:url(../fancybox/fancybox.png?1405582389);*/
 		background-position:-40px -60px
 	}
 	#fancybox-left:hover,#fancybox-right:hover {
@@ -196,8 +195,8 @@
 		text-align:left
 	}
 	#fancybox-title-over {
-		padding:10px;
-		background-image:url(../fancybox/fancy_title_over.png?1405582389);
+		padding:10px;/*
+		background-image:url(../fancybox/fancy_title_over.png?1405582389);*/
 		display:block
 	}
 	.fancybox-title-float {
@@ -216,19 +215,19 @@
 		white-space:nowrap
 	}
 	#fancybox-title-float-left {
-		padding:0 0 0 15px;
-		background:url(../fancybox/fancybox.png?1405582389) -40px -90px no-repeat
+		padding:0 0 0 15px;/*
+		background:url(../fancybox/fancybox.png?1405582389) -40px -90px no-repeat*/
 	}
 	#fancybox-title-float-main {
 		color:#FFF;
 		line-height:29px;
 		font-weight:bold;
-		padding:0 0 3px 0;
-		background:url(../fancybox/fancybox-x.png?1405582389) 0 -40px
+		padding:0 0 3px 0;/*
+		background:url(../fancybox/fancybox-x.png?1405582389) 0 -40px*/
 	}
 	#fancybox-title-float-right {
-		padding:0 0 0 15px;
-		background:url(../fancybox/fancybox.png?1405582389) -55px -90px no-repeat
+		padding:0 0 0 15px;/*
+		background:url(../fancybox/fancybox.png?1405582389) -55px -90px no-repeat*/
 	}
 	.fancybox-ie6 #fancybox-close {
 		background:transparent;
@@ -421,8 +420,8 @@
 	@font-face {
 		font-family:'mixlr_icons';
 		src:url(/fonts/mixlr_icons.eot?1449496384);
-		src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
-		font-weight:normal;
+/*		src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
+*/		font-weight:normal;
 		font-style:normal
 	}
 	span.listen,span.category {

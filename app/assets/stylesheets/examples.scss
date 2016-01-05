@@ -424,7 +424,7 @@
 		clear:left
 	}
 	@font-face {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		src:url(/fonts/mixlr_icons.eot?1449496384);
 		src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
 		font-weight:normal;
@@ -600,7 +600,7 @@
 		-webkit-tap-highlight-color:rgba(0,0,0,0)
 	}
 	@font-face {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		src:url(/fonts/mixlr_icons.eot?1449496384);
 		src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
 		font-weight:normal;
@@ -654,7 +654,7 @@
 		width:100%;
 		height:100%;
 		color:#1a1a1a;
-		font:81.3%/1.5em "Helvetica Neue",Helvetica,Arial,sans-serif;
+		font:81.3%/1.5em Helvetica Neue,Helvetica,Arial,sans-serif;
 		*font-size:small;
 		min-width:320px;
 		-webkit-font-smoothing:antialiased
@@ -869,10 +869,10 @@
 		padding:5px
 	}
 	input[type="password"] {
-		font-family:"Helvetica Neue",Helvetica,Arial,sans-serif
+		font-family:Helvetica Neue,Helvetica,Arial,sans-serif
 	}
 	label,input,select,textarea {
-		font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+		font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
 		font-size:1em;
 		font-weight:normal;
 		line-height:normal
@@ -1146,7 +1146,7 @@
 		text-align:center
 	}
 	#header>.header_container>nav>ul>li.app_link>a {
-		background:url(/images/iphone_app_image.png?1405582389) 28px 14px no-repeat;
+		// background:url(/images/iphone_app_image.png?1405582389) 28px 14px no-repeat;
 		padding-left:48px
 	}
 	#header>.header_container>nav>ul>li.twitter_link {
@@ -1154,7 +1154,7 @@
 		text-align:center
 	}
 	#header>.header_container>nav>ul>li.twitter_link>a {
-		background:url(/images/twitter_icon_small.png?1405582390) 44px 16px no-repeat;
+		// background:url(/images/twitter_icon_small.png?1405582390) 44px 16px no-repeat;
 		padding-left:45px
 	}
 	#header>.header_container>nav>ul>li>a {
@@ -1173,7 +1173,7 @@
 		width:200px
 	}
 	#header>.header_container>nav>ul>li.profile_menu>a {
-		background:url(/images/mixlr_sprite.png?1405605063) no-repeat 100% -3647px;
+		// background:url(/images/mixlr_sprite.png?1405605063) no-repeat 100% -3647px;
 		padding-right:30px;
 		overflow:hidden;
 		white-space:nowrap;
@@ -1221,7 +1221,7 @@
 		background:#f2f2f2
 	}
 	#header>.header_container>nav>ul>li.profile_menu>.profile_menu_drop_down>ul>li>a {
-		background-image:url(/images/mixlr_sprite.png?1405605063);
+		// background-image:url(/images/mixlr_sprite.png?1405605063);
 		background-repeat:no-repeat;
 		padding-left:30px;
 		display:block;
@@ -1504,7 +1504,7 @@
 		margin-bottom:35px
 	}
 	#footer>p>a {
-		background-image:url(/images/mixlr_sprite.png?1405605063);
+		// background-image:url(/images/mixlr_sprite.png?1405605063);
 		background-repeat:no-repeat;
 		display:inline-block;
 		padding:3px 0 3px 34px
@@ -1546,7 +1546,7 @@
 		position:relative
 	}
 	#footer .logo:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -1558,7 +1558,7 @@
 		content:"\e643"
 	}
 	#footer .logo:after {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -1576,7 +1576,7 @@
 		color:white
 	}
 	#footer .mixlr:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -1798,18 +1798,18 @@
 		color:#b3b3b3
 	}
 	ul#search_results>li.entry.live>a>ul>li.friends,ul#search_results>li.entry.live a:visited>ul>li.friends,ul#search_results>li.entry.live a:active>ul>li.friends,ul#search_results>li.entry.live a:hover>ul>li.friends {
-		background:url(/images/mixlr_sprite.png?1405605063) no-repeat -1px -4173px;
+		// background:url(/images/mixlr_sprite.png?1405605063) no-repeat -1px -4173px;
 		padding-left:13px
 	}
 	ul#search_results>li.entry.live>a>ul>li.crowd,ul#search_results>li.entry.live a:visited>ul>li.crowd,ul#search_results>li.entry.live a:active>ul>li.crowd,ul#search_results>li.entry.live a:hover>ul>li.crowd {
-		background:url(/images/mixlr_sprite.png?1405605063) no-repeat 2px -4145px
+		// background:url(/images/mixlr_sprite.png?1405605063) no-repeat 2px -4145px
 	}
 	ul#search_results>li.entry.live>a>ul>li.comments,ul#search_results>li.entry.live a:visited>ul>li.comments,ul#search_results>li.entry.live a:active>ul>li.comments,ul#search_results>li.entry.live a:hover>ul>li.comments {
 		padding-left:17px;
-		background:url(/images/mixlr_sprite.png?1405605063) no-repeat 2px -4195px
+		// background:url(/images/mixlr_sprite.png?1405605063) no-repeat 2px -4195px
 	}
 	ul#search_results>li.entry.live>a>ul>li.hearts,ul#search_results>li.entry.live a:visited>ul>li.hearts,ul#search_results>li.entry.live a:active>ul>li.hearts,ul#search_results>li.entry.live a:hover>ul>li.hearts {
-		background:url(/images/mixlr_sprite.png?1405605063) no-repeat 2px -4219px;
+		// background:url(/images/mixlr_sprite.png?1405605063) no-repeat 2px -4219px;
 		padding-left:18px
 	}
 	ul#search_results>li.entry.other {
@@ -1945,10 +1945,10 @@
 		cursor:pointer;
 		float:none;
 		display:block;
-		background:url(/images/volume_on.png?1405582390) repeat top left
+		// background:url(/images/volume_on.png?1405582390) repeat top left
 	}
 	#volume_wrapper>#volume_control>.inactive {
-		background:url(/images/volume_off.png?1405582390) repeat top left;
+		// background:url(/images/volume_off.png?1405582390) repeat top left;
 		height:0;
 		position:fixed;
 		width:12px
@@ -2011,9 +2011,9 @@
 		clear:both
 	}
 	@font-face {
-		font-family:'mixlr_icons';
-		src:url(/fonts/mixlr_icons.eot?1449496384);
-		src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
+		font-family:'Haettenschweiler';
+		// src:url(/fonts/mixlr_icons.eot?1449496384);
+		// src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
 		font-weight:normal;
 		font-style:normal
 	}
@@ -2692,7 +2692,7 @@
 		}
 	}
 	#main_search form.search_site button[type="submit"].searching {
-		background:url(/images/search_loading_arrow2.gif?1405582390) 0 center no-repeat;
+		// background:url(/images/search_loading_arrow2.gif?1405582390) 0 center no-repeat;
 		height:14px;
 		width:15px;
 		top:32px
@@ -3142,7 +3142,7 @@
 		text-decoration:underline
 	}
 	@font-face {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		src:url(/fonts/mixlr_icons.eot?1449496384);
 		src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
 		font-weight:normal;
@@ -3167,7 +3167,7 @@
 		behavior:url(/PIE.htc?1405582389)
 	}
 	.icon-social_twitter:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -3179,7 +3179,7 @@
 		content:"\e600"
 	}
 	.icon-social_tumblr:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -3191,7 +3191,7 @@
 		content:"\e601"
 	}
 	.icon-social_soundcloud:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -3203,7 +3203,7 @@
 		content:"\e602"
 	}
 	.icon-social_songkick:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -3215,7 +3215,7 @@
 		content:"\e603"
 	}
 	.icon-social_myspace:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -3227,7 +3227,7 @@
 		content:"\e604"
 	}
 	.icon-social_mixcloud:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -3239,7 +3239,7 @@
 		content:"\e605"
 	}
 	.icon-social_lastfm:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -3251,7 +3251,7 @@
 		content:"\e606"
 	}
 	.icon-social_google_plus:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -3263,7 +3263,7 @@
 		content:"\e607"
 	}
 	.icon-social_facebook:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -3275,7 +3275,7 @@
 		content:"\e608"
 	}
 	.icon-social_email:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -3287,7 +3287,7 @@
 		content:"\e609"
 	}
 	.icon-social_blog:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -3299,7 +3299,7 @@
 		content:"\e60a"
 	}
 	.icon-social_bandcamp:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -3311,7 +3311,7 @@
 		content:"\e60b"
 	}
 	.icon-social_anywhere:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -3323,7 +3323,7 @@
 		content:"\e60c"
 	}
 	.icon-showreel:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -3335,7 +3335,7 @@
 		content:"\e60d"
 	}
 	.icon-hearts:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -3347,7 +3347,7 @@
 		content:"\e60e"
 	}
 	.icon-crowd:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -3359,7 +3359,7 @@
 		content:"\e60f"
 	}
 	.icon-comment:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -3371,7 +3371,7 @@
 		content:"\e610"
 	}
 	.icon-broadcast:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -3383,7 +3383,7 @@
 		content:"\e611"
 	}
 	.icon-play:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -3395,7 +3395,7 @@
 		content:"\e612"
 	}
 	.icon-pause:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -3407,7 +3407,7 @@
 		content:"\e613"
 	}
 	.icon-share:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -3419,7 +3419,7 @@
 		content:"\e614"
 	}
 	.icon-info:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -3431,7 +3431,7 @@
 		content:"\e615"
 	}
 	.icon-masthead_toggle:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -3443,7 +3443,7 @@
 		content:"\e616"
 	}
 	.icon-crowd_shrink:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -3455,7 +3455,7 @@
 		content:"\e617"
 	}
 	.icon-crowd_expand:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -3467,7 +3467,7 @@
 		content:"\e618"
 	}
 	.icon-crowd_btn:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -3479,7 +3479,7 @@
 		content:"\e619"
 	}
 	.icon-comments_shrink:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -3491,7 +3491,7 @@
 		content:"\e61a"
 	}
 	.icon-comments_expand:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -3503,7 +3503,7 @@
 		content:"\e61b"
 	}
 	.icon-comments_btn:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -3515,7 +3515,7 @@
 		content:"\e61c"
 	}
 	.icon-heart_large:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -3527,7 +3527,7 @@
 		content:"\e61d"
 	}
 	.icon-guest:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -3539,7 +3539,7 @@
 		content:"\e61e"
 	}
 	.icon-delete_comments:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -3551,7 +3551,7 @@
 		content:"\e61f"
 	}
 	.icon-delete_comments_close:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -3563,7 +3563,7 @@
 		content:"\e620"
 	}
 	.icon-searchbar:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -3575,7 +3575,7 @@
 		content:"\e621"
 	}
 	.icon-searchbar_close:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -3587,7 +3587,7 @@
 		content:"\e622"
 	}
 	.icon-mixlr_mobile:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -3599,7 +3599,7 @@
 		content:"\e623"
 	}
 	.icon-settings:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -3611,7 +3611,7 @@
 		content:"\e624"
 	}
 	.icon-schedule_v3:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -3623,7 +3623,7 @@
 		content:"\e625"
 	}
 	.icon-schedule_v2:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -3635,7 +3635,7 @@
 		content:"\e626"
 	}
 	.icon-schedule_v1:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -3647,7 +3647,7 @@
 		content:"\e627"
 	}
 	.icon-mobile:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -3659,7 +3659,7 @@
 		content:"\e628"
 	}
 	.icon-logout:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -3671,7 +3671,7 @@
 		content:"\e629"
 	}
 	.icon-dropdown_toggle:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -3683,7 +3683,7 @@
 		content:"\e62a"
 	}
 	.icon-mixlr_desktop:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -3695,7 +3695,7 @@
 		content:"\e62b"
 	}
 	.icon-masthead_search:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -3707,7 +3707,7 @@
 		content:"\e62c"
 	}
 	.icon-masthead_menu:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -3719,7 +3719,7 @@
 		content:"\e62d"
 	}
 	.icon-close_btn:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -3731,7 +3731,7 @@
 		content:"\e62e"
 	}
 	.icon-following_icon:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -3743,7 +3743,7 @@
 		content:"\e62f"
 	}
 	.icon-edit_profile:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -3755,7 +3755,7 @@
 		content:"\e630"
 	}
 	.icon-premium_star:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -3767,7 +3767,7 @@
 		content:"\e901"
 	}
 	.icon-premiumplus_star:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -3779,7 +3779,7 @@
 		content:"\e901"
 	}
 	.icon-premiumclassic_star:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -3791,7 +3791,7 @@
 		content:"\e631"
 	}
 	.icon-pro_star:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -3803,7 +3803,7 @@
 		content:"\e903"
 	}
 	.icon-proclassic_star:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -3815,7 +3815,7 @@
 		content:"\e902"
 	}
 	.icon-basic_plan:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -3827,7 +3827,7 @@
 		content:"\e904"
 	}
 	.icon-premiumclassic_plan:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -3839,7 +3839,7 @@
 		content:"\e634"
 	}
 	.icon-premium_plan:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -3851,7 +3851,7 @@
 		content:"\e901"
 	}
 	.icon-premiumplus_plan:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -3863,7 +3863,7 @@
 		content:"\e901"
 	}
 	.icon-pro_plan:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -3875,7 +3875,7 @@
 		content:"\e903"
 	}
 	.icon-proclassic_plan:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -3887,7 +3887,7 @@
 		content:"\e902"
 	}
 	.icon-contact:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -3899,7 +3899,7 @@
 		content:"\e636"
 	}
 	.icon-watermark_text:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -3911,7 +3911,7 @@
 		content:"\e637"
 	}
 	.icon-watermark_no_text:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -3923,7 +3923,7 @@
 		content:"\e638"
 	}
 	.icon-cross:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -3935,7 +3935,7 @@
 		content:"\e639"
 	}
 	.icon-tick:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -3947,7 +3947,7 @@
 		content:"\e63e"
 	}
 	.icon-back:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -3959,7 +3959,7 @@
 		content:"\e63b"
 	}
 	.icon-password:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -3971,7 +3971,7 @@
 		content:"\e63c"
 	}
 	.icon-oh_no:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -3983,7 +3983,7 @@
 		content:"\e63d"
 	}
 	.icon-read_more:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -3995,7 +3995,7 @@
 		content:"\e63a"
 	}
 	.icon-read_less:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -4007,7 +4007,7 @@
 		content:"\e63f"
 	}
 	.icon-volume_eq:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -4019,7 +4019,7 @@
 		content:"\e640"
 	}
 	.icon-dots:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -4031,7 +4031,7 @@
 		content:"\e641"
 	}
 	.icon-dots_mask:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -4043,7 +4043,7 @@
 		content:"\e642"
 	}
 	.icon-dots_base:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -4055,7 +4055,7 @@
 		content:"\e643"
 	}
 	.icon-total_listens:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -4067,7 +4067,7 @@
 		content:"\e644"
 	}
 	.icon-listening_now:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -4079,7 +4079,7 @@
 		content:"\e645"
 	}
 	.icon-enter:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -4091,7 +4091,7 @@
 		content:"\e646"
 	}
 	.icon-total_followers:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -4103,7 +4103,7 @@
 		content:"\e647"
 	}
 	.icon-any_web_link:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -4115,7 +4115,7 @@
 		content:"\e648"
 	}
 	.icon-edit_profile:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -4127,7 +4127,7 @@
 		content:"\e649"
 	}
 	.icon-follow_plus:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -4139,7 +4139,7 @@
 		content:"\e64a"
 	}
 	.icon-share_large:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -4151,7 +4151,7 @@
 		content:"\e64b"
 	}
 	.icon-download:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -4163,7 +4163,7 @@
 		content:"\e64d"
 	}
 	.icon-support:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -4175,7 +4175,7 @@
 		content:"\e64e"
 	}
 	.icon-what_is:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -4187,7 +4187,7 @@
 		content:"\e64f"
 	}
 	.icon-location:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -4199,7 +4199,7 @@
 		content:"\e650"
 	}
 	.icon-clock:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -4211,7 +4211,7 @@
 		content:"\e651"
 	}
 	.icon-info:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -4223,7 +4223,7 @@
 		content:"\e652"
 	}
 	.icon-1:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -4235,7 +4235,7 @@
 		content:"\e653"
 	}
 	.icon-2:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -4247,7 +4247,7 @@
 		content:"\e654"
 	}
 	.icon-3:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -4259,7 +4259,7 @@
 		content:"\e655"
 	}
 	.icon-query:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -4271,7 +4271,7 @@
 		content:"\e656"
 	}
 	.icon-security:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -4283,7 +4283,7 @@
 		content:"\e657"
 	}
 	.icon-chatheart:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -4295,7 +4295,7 @@
 		content:"\e658"
 	}
 	.icon-chat_disabled:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -4307,7 +4307,7 @@
 		content:"\e659"
 	}
 	.icon-no_results:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -4319,7 +4319,7 @@
 		content:"\e65a"
 	}
 	.icon-premium_plan_trial:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -4331,7 +4331,7 @@
 		content:"\e65b"
 	}
 	.icon-pro_plan_trial:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -4343,7 +4343,7 @@
 		content:"\e65c"
 	}
 	.icon-warning:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -4355,7 +4355,7 @@
 		content:"\e65d"
 	}
 	.icon-now_playing:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -4367,7 +4367,7 @@
 		content:"\e65e"
 	}
 	.icon-events:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -4379,7 +4379,7 @@
 		content:"\e65f"
 	}
 	.icon-events_add:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -4391,7 +4391,7 @@
 		content:"\e660"
 	}
 	.icon-events_edit:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -4403,7 +4403,7 @@
 		content:"\e661"
 	}
 	.icon-events_success:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -4415,7 +4415,7 @@
 		content:"\e662"
 	}
 	.icon-events_cancel:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -4427,7 +4427,7 @@
 		content:"\e663"
 	}
 	.icon-copy_link:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -4439,7 +4439,7 @@
 		content:"\e664"
 	}
 	.icon-events_blank:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -4451,7 +4451,7 @@
 		content:"\e665"
 	}
 	.icon-events_upgrade:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -4463,7 +4463,7 @@
 		content:"\e666"
 	}
 	.icon-events_upgrade_arrow:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -4475,7 +4475,7 @@
 		content:"\e667"
 	}
 	.icon-events_remind_me:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -4487,7 +4487,7 @@
 		content:"\e668"
 	}
 	.icon-events_reminder_set:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -4499,7 +4499,7 @@
 		content:"\e669"
 	}
 	.icon-events_warning:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -4511,7 +4511,7 @@
 		content:"\e66a"
 	}
 	.icon-events_started:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -4523,7 +4523,7 @@
 		content:"\e66b"
 	}
 	.icon-events_started_arrow:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -4535,7 +4535,7 @@
 		content:"\e66c"
 	}
 	.icon-play_button:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -4547,7 +4547,7 @@
 		content:"\e66d"
 	}
 	.icon-events_delete:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -4559,7 +4559,7 @@
 		content:"\e66e"
 	}
 	.icon-credit_card:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -4571,7 +4571,7 @@
 		content:"\e900"
 	}
 	.icon-info_italic:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -4583,7 +4583,7 @@
 		content:"\e905"
 	}
 	@font-face {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		src:url(/fonts/mixlr_icons.eot?1449496384);
 		src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
 		font-weight:normal;
@@ -4679,7 +4679,7 @@
 		}
 	}
 	header#main_header h1 a .masthead_icon {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -4782,12 +4782,12 @@
 		color:#ed1c24;
 		font-size:11px;
 		line-height:24px;
-		font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+		font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
 		letter-spacing:.25px
 	}
 	@font-face {
-		font-family:'mixlr_icons';
-		src:url(/fonts/mixlr_icons.eot?1449496384);
+		font-family:'Haettenschweiler';
+		// src:url(/fonts/mixlr_icons.eot?1449496384);
 		src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
 		font-weight:normal;
 		font-style:normal
@@ -4820,7 +4820,7 @@
 		margin:20px auto;
 		background:#f5f5f5;
 		font-size:14px;
-		font-family:"Helvetica Neue",Helvetica,Arial,sans-serif
+		font-family:Helvetica Neue,Helvetica,Arial,sans-serif
 	}
 	.lt-ie9 .auth_form {
 		padding-top:25px
@@ -4900,7 +4900,7 @@
 	}
 	.auth_form .error {
 		color:#65a0c5;
-		font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+		font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
 		font-size:14px;
 		line-height:15px;
 		text-align:center
@@ -4928,12 +4928,12 @@
 		border-radius:0
 	}
 	.auth_form h2,.auth_form input[type="submit"],.auth_form a.btn,.auth_form label {
-		font-family:"Avenir LT W02 65 Medium","Helvetica Neue",Helvetica,arial,sans-serif;
+		font-family:"Avenir LT W02 65 Medium",Helvetica Neue,Helvetica,arial,sans-serif;
 		line-height:45px;
 		text-align:center
 	}
 	.auth_form label {
-		font-family:"Helvetica Neue",Helvetica,Arial,sans-serif
+		font-family:Helvetica Neue,Helvetica,Arial,sans-serif
 	}
 	.auth_form h2 {
 		border-bottom:1px solid #ccc;
@@ -5074,12 +5074,12 @@
 	}
 	.lt-ie9 .auth_forms .auth_form {
 		padding-top:215px;
-		background:url(/images/MixlrDesktopLogo_Bevel_HW160.png?1405605063) no-repeat center 35px
+		// background:url(/images/MixlrDesktopLogo_Bevel_HW160.png?1405605063) no-repeat center 35px
 	}
 	@media screen and (min-width:31.25em) {
 		.auth_forms .auth_form {
 			padding-top:215px;
-			background:url(/images/MixlrDesktopLogo_Bevel_HW160.png?1405605063) no-repeat center 35px
+			// background:url(/images/MixlrDesktopLogo_Bevel_HW160.png?1405605063) no-repeat center 35px
 		}
 	}
 	.auth_forms h2 {
@@ -5099,7 +5099,7 @@
 		text-indent:-999em;
 		direction:ltr;
 		*line-height:0;
-		background:url(/images/sign_up_mixlr.png?1405605064) no-repeat 0 0;
+		// background:url(/images/sign_up_mixlr.png?1405605064) no-repeat 0 0;
 		height:30px;
 		width:100px
 	}
@@ -5128,7 +5128,7 @@
 		display:block;
 		text-align:center;
 		border-top:1px solid #ccc;
-		font-family:"Avenir LT W02 65 Medium","Helvetica Neue",Helvetica,arial,sans-serif;
+		font-family:"Avenir LT W02 65 Medium",Helvetica Neue,Helvetica,arial,sans-serif;
 		font-size:1.077em;
 		padding:.9em 0;
 		color:#999
@@ -5152,7 +5152,7 @@
 		border-top:1px solid #ccc;
 		width:100%;
 		background:#f5f5f5;
-		font-family:"Avenir LT W02 65 Medium","Helvetica Neue",Helvetica,arial,sans-serif;
+		font-family:"Avenir LT W02 65 Medium",Helvetica Neue,Helvetica,arial,sans-serif;
 		font-size:1.077em;
 		padding:1em;
 		color:#999
@@ -5164,7 +5164,7 @@
 		border-top:1px solid #ccc;
 		width:100%;
 		background:#f5f5f5;
-		font-family:"Avenir LT W02 65 Medium","Helvetica Neue",Helvetica,arial,sans-serif;
+		font-family:"Avenir LT W02 65 Medium",Helvetica Neue,Helvetica,arial,sans-serif;
 		font-size:1.077em;
 		padding:1em;
 		color:#999;
@@ -5195,7 +5195,7 @@
 		-webkit-appearance:checkbox
 	}
 	.auth_forms form .remember_me label {
-		font-family:"Avenir LT W02 65 Medium","Helvetica Neue",Helvetica,arial,sans-serif;
+		font-family:"Avenir LT W02 65 Medium",Helvetica Neue,Helvetica,arial,sans-serif;
 		font-size:.923em;
 		color:#999
 	}
@@ -5206,7 +5206,7 @@
 		border-top:1px solid #ccc;
 		width:100%;
 		background:#f5f5f5;
-		font-family:"Avenir LT W02 65 Medium","Helvetica Neue",Helvetica,arial,sans-serif;
+		font-family:"Avenir LT W02 65 Medium",Helvetica Neue,Helvetica,arial,sans-serif;
 		font-size:1.077em;
 		color:#999;
 		height:46px
@@ -5223,7 +5223,7 @@
 		display:block;
 		text-align:center;
 		border-top:1px solid #ccc;
-		font-family:"Avenir LT W02 65 Medium","Helvetica Neue",Helvetica,arial,sans-serif;
+		font-family:"Avenir LT W02 65 Medium",Helvetica Neue,Helvetica,arial,sans-serif;
 		font-size:.846em;
 		padding:.5em 0;
 		color:#999
@@ -5341,7 +5341,7 @@
 		text-align:center
 	}
 	#login_box h2 {
-		font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+		font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
 		font-size:14px
 	}
 	#login_box>p.login,#login_box>p.join {
@@ -5447,7 +5447,7 @@
 		margin-top:30px
 	}
 	@font-face {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		src:url(/fonts/mixlr_icons.eot?1449496384);
 		src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
 		font-weight:normal;
@@ -5647,9 +5647,9 @@
 		margin-bottom:10px
 	}
 	@font-face {
-		font-family:'mixlr_icons';
-		src:url(/fonts/mixlr_icons.eot?1449496384);
-		src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
+		font-family:'Haettenschweiler';
+		// src:url(/fonts/mixlr_icons.eot?1449496384);
+		// src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
 		font-weight:normal;
 		font-style:normal
 	}
@@ -5776,7 +5776,7 @@
 		z-index:2000
 	}
 	@font-face {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		src:url(/fonts/mixlr_icons.eot?1449496384);
 		src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
 		font-weight:normal;
@@ -6108,7 +6108,7 @@
 		width:114px
 	}
 	#broadcaster_details .user_links>li.broadcast>a,#broadcaster_details .user_links>li.crowd>a,#broadcaster_details .user_links>li.chat>a,#broadcaster_details .user_links>li.profile>a {
-		background-image:url(/images/mixlr_sprite.png?1405605063);
+		// background-image:url(/images/mixlr_sprite.png?1405605063);
 		background-repeat:no-repeat;
 		height:114px;
 		padding:0;
@@ -6432,7 +6432,7 @@
 		width:230px
 	}
 	#broadcast_profile>#scheduled_broadcasts>h2 {
-		font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+		font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
 		font-weight:bold;
 		margin-bottom:15px
 	}
@@ -6440,7 +6440,7 @@
 		margin:131px 340px 0 55px
 	}
 	#broadcast_profile>#about>h2 {
-		font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+		font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
 		font-weight:bold;
 		margin-bottom:15px
 	}
@@ -6469,7 +6469,7 @@
 		width:29px
 	}
 	#broadcast_profile>#about>.description>.social_links>li>a {
-		background-image:url(/images/mixlr_sprite.png?1405605063);
+		// background-image:url(/images/mixlr_sprite.png?1405605063);
 		background-repeat:no-repeat;
 		display:block;
 		height:30px;
@@ -6626,19 +6626,19 @@
 		margin-bottom:2px
 	}
 	#broadcast_crowd>.selector>a.prev {
-		background:white url(/images/left_arrows.png?1405582389) left center no-repeat;
+		// background:white url(/images/left_arrows.png?1405582389) left center no-repeat;
 		display:inline-block;
 		width:25px
 	}
 	#broadcast_crowd>.selector>a.next {
-		background:white url(/images/right_arrows.png?1405582390) left center no-repeat;
+		// background:white url(/images/right_arrows.png?1405582390) left center no-repeat;
 		display:inline-block;
 		width:25px;
 		margin-left:5px
 	}
 	#broadcast_chat {
-		background:white url(/images/chat_view_background.png?1405582389);
-		font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+		// background:white url(/images/chat_view_background.png?1405582389);
+		font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
 		overflow-y:scroll;
 		overflow-x:hidden;
 		height:100%;
@@ -6806,7 +6806,7 @@
 		width:50px
 	}
 	#broadcast_chat>.comment_holder>#last_broadcaster>.broadcaster_info>h2 {
-		font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+		font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
 		text-transform:uppercase;
 		width:465px;
 		white-space:nowrap;
@@ -6949,7 +6949,7 @@
 	}
 	#broadcast_chat>.comment_holder>#comments>header>.details {
 		color:gray;
-		font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+		font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
 		float:right;
 		text-align:right;
 		width:450px
@@ -6965,7 +6965,7 @@
 		border-top:10px solid #00b274
 	}
 	#broadcast_chat>.comment_holder>#comments>header>h4 {
-		font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+		font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
 		float:left
 	}
 	#broadcast_chat>.comment_holder>#comments #comment_list {
@@ -7010,7 +7010,7 @@
 		width:50px
 	}
 	#broadcast_chat>.comment_holder>#comments #comment_list>li>h3 {
-		font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+		font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
 		text-transform:uppercase;
 		width:465px;
 		white-space:nowrap;
@@ -7138,7 +7138,7 @@
 		margin:4px 10px 0 0
 	}
 	#broadcast_chat>.comment_holder header>h4 {
-		font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+		font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
 		float:left;
 		line-height:20px;
 		margin:0
@@ -7348,7 +7348,7 @@
 	}
 	#broadcast_playlist>#playlist_filter_bar>.my_tracks a:before {
 		content:'';
-		background:url(/images/mixlr_sprite.png?1405605063) no-repeat 10px -2919px;
+		// background:url(/images/mixlr_sprite.png?1405605063) no-repeat 10px -2919px;
 		display:block;
 		height:30px;
 		width:35px;
@@ -7377,7 +7377,7 @@
 		margin-right:4%
 	}
 	#broadcast_playlist>#playlist_filter_bar>form.playlist_catgory_search>input[type="text"] {
-		background:white url(/images/mixlr_sprite.png?1405605063) no-repeat 7px -3614px;
+		// background:white url(/images/mixlr_sprite.png?1405605063) no-repeat 7px -3614px;
 		padding-left:22px
 	}
 	#broadcast_playlist>#playlist_filter_bar>form.playlist_get_track>input[type="text"] {
@@ -7401,7 +7401,7 @@
 		top:11px
 	}
 	#broadcast_playlist>#playlist_filter_bar>.filter_links>.suggested_tracks {
-		background:url(/images/mixlr_sprite.png?1405605063) no-repeat 0 -2970px;
+		// background:url(/images/mixlr_sprite.png?1405605063) no-repeat 0 -2970px;
 		margin-right:10px;
 		padding-left:13px
 	}
@@ -7409,7 +7409,7 @@
 		background-position:0 -3008px
 	}
 	#broadcast_playlist>#playlist_filter_bar>.filter_links>.recently_played {
-		background:url(/images/mixlr_sprite.png?1405605063) no-repeat 0 -3049px;
+		// background:url(/images/mixlr_sprite.png?1405605063) no-repeat 0 -3049px;
 		margin-right:20px;
 		padding-left:13px
 	}
@@ -7511,7 +7511,7 @@
 		width:38px
 	}
 	#broadcast_playlist>#playlist_table_holder>#playlist_table>tbody>tr>td.sort>.preview_button {
-		background:url(/images/mixlr_sprite.png?1405605063) no-repeat 0 -3959px;
+		// background:url(/images/mixlr_sprite.png?1405605063) no-repeat 0 -3959px;
 		display:none;
 		height:20px;
 		margin:0 auto;
@@ -7658,7 +7658,7 @@
 		width:130px
 	}
 	#broadcast_playlist>#schedule_broadcast_overlay>.close_schedule {
-		background:url(/images/mixlr_sprite.png?1405605063) no-repeat 0 -2874px;
+		// background:url(/images/mixlr_sprite.png?1405605063) no-repeat 0 -2874px;
 		display:block;
 		float:right;
 		height:14px;
@@ -7878,7 +7878,7 @@
 		font-weight:bold;
 		display:inline-block;
 		padding-left:23px;
-		background-image:url(/images/mixlr_sprite.png?1405605063);
+		// background-image:url(/images/mixlr_sprite.png?1405605063);
 		background-repeat:no-repeat;
 		background-position:3px -3228px;
 		position:relative
@@ -7933,7 +7933,7 @@
 		behavior:url(/PIE.htc?1405582389)
 	}
 	#playlist_bar>#broadcast_now_overlay>.close_broadcast_now {
-		background:url(/images/mixlr_sprite.png?1405605063) no-repeat 0 -2874px;
+		// background:url(/images/mixlr_sprite.png?1405605063) no-repeat 0 -2874px;
 		display:block;
 		float:right;
 		height:14px;
@@ -7996,7 +7996,7 @@
 		padding:20px 10px 30px 10px
 	}
 	#edit_broadcast_overlay>.close_broadcast_now {
-		background:url(/images/mixlr_sprite.png?1405605063) no-repeat 0 -2874px;
+		// background:url(/images/mixlr_sprite.png?1405605063) no-repeat 0 -2874px;
 		display:block;
 		float:right;
 		height:14px;
@@ -8361,7 +8361,7 @@
 	.app_download_dialog>ul>li>button {
 		padding:4px 30px;
 		text-transform:uppercase;
-		font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+		font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
 		height:auto
 	}
 	.app_download_dialog>ul>li.beta {
@@ -8456,7 +8456,7 @@
 		position:absolute;
 		top:-10px;
 		right:-10px;
-		background:white url(/images/mixlr_live_page_sprite.png?1405605063) no-repeat -60px -194px;
+		// background:white url(/images/mixlr_live_page_sprite.png?1405605063) no-repeat -60px -194px;
 		height:25px;
 		width:25px;
 		border-radius:25px;
@@ -8476,9 +8476,9 @@
 		font-size:16px
 	}
 	@font-face {
-		font-family:'mixlr_icons';
-		src:url(/fonts/mixlr_icons.eot?1449496384);
-		src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
+		font-family:'Haettenschweiler';
+		// src:url(/fonts/mixlr_icons.eot?1449496384);
+		// src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
 		font-weight:normal;
 		font-style:normal
 	}
@@ -8592,9 +8592,9 @@
 		width:100px
 	}
 	@font-face {
-		font-family:'mixlr_icons';
-		src:url(/fonts/mixlr_icons.eot?1449496384);
-		src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
+		font-family:'Haettenschweiler';
+		// src:url(/fonts/mixlr_icons.eot?1449496384);
+		// src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
 		font-weight:normal;
 		font-style:normal
 	}
@@ -8689,7 +8689,7 @@
 		margin:0 0 0 13px
 	}
 	.mixlr_player>.player_header>.social_links>li>a {
-		background-image:url(/images/mixlr_sprite.png?1405605063);
+		// background-image:url(/images/mixlr_sprite.png?1405605063);
 		background-repeat:no-repeat;
 		display:inline-block;
 		text-indent:-9999px
@@ -8747,7 +8747,7 @@
 		width:18px
 	}
 	.mixlr_player>.player_header>.player_settings>.holder>ul>li>a {
-		background:white url(/images/mixlr_sprite.png?1405605063) 0 -2838px;
+		// background:white url(/images/mixlr_sprite.png?1405605063) 0 -2838px;
 		float:left;
 		height:18px;
 		width:18px
@@ -8814,7 +8814,7 @@
 		margin-left:3px
 	}
 	.mixlr_player .content>.play_button .icon:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -8903,9 +8903,9 @@
 		}
 	}
 	@font-face {
-		font-family:'mixlr_icons';
-		src:url(/fonts/mixlr_icons.eot?1449496384);
-		src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
+		font-family:'Haettenschweiler';
+		// src:url(/fonts/mixlr_icons.eot?1449496384);
+		// src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
 		font-weight:normal;
 		font-style:normal
 	}
@@ -8942,9 +8942,9 @@
 		padding-right:50px!important
 	}
 	@font-face {
-		font-family:'mixlr_icons';
-		src:url(/fonts/mixlr_icons.eot?1449496384);
-		src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
+		font-family:'Haettenschweiler';
+		// src:url(/fonts/mixlr_icons.eot?1449496384);
+		// src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
 		font-weight:normal;
 		font-style:normal
 	}
@@ -9149,7 +9149,7 @@
 		width:36px
 	}
 	#live_now>ul li>a.profile_image.heart_flash {
-		background:white url(/images/mixlr_sprite.png?1405605063) no-repeat 13px -1944px
+		// background:white url(/images/mixlr_sprite.png?1405605063) no-repeat 13px -1944px
 	}
 	#live_now>ul li>a.profile_image.heart_flash>img {
 		display:none
@@ -9191,7 +9191,7 @@
 		margin-left:2.5px
 	}
 	#live_now>ul li>.meta>span.heart_small {
-		background:url(/images/mixlr_sprite.png?1405605063);
+		// background:url(/images/mixlr_sprite.png?1405605063);
 		background-repeat:no-repeat;
 		background-position:2px -1836px;
 		border:none;
@@ -9277,9 +9277,9 @@
 		margin-left:0
 	}
 	@font-face {
-		font-family:'mixlr_icons';
-		src:url(/fonts/mixlr_icons.eot?1449496384);
-		src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
+		font-family:'Haettenschweiler';
+		// src:url(/fonts/mixlr_icons.eot?1449496384);
+		// src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
 		font-weight:normal;
 		font-style:normal
 	}
@@ -9323,7 +9323,7 @@
 		}
 	}
 	#dropdown .close {
-		background:rgba(0,178,116,0.75) url(/images/mixlr_sprite.png?1405605063) no-repeat 3px -4508px;
+		// background:rgba(0,178,116,0.75) url(/images/mixlr_sprite.png?1405605063) no-repeat 3px -4508px;
 		width:16px;
 		height:16px;
 		float:right;
@@ -9337,7 +9337,7 @@
 		left:20px
 	}
 	#dropdown span {
-		background:url(/images/mixlr_sprite.png?1405605063) no-repeat scroll 0 -4536px;
+		// background:url(/images/mixlr_sprite.png?1405605063) no-repeat scroll 0 -4536px;
 		padding:5px 0 5px 35px;
 		font-size:1.154em;
 		position:relative;
@@ -9423,9 +9423,9 @@
 		background-color:black
 	}
 	@font-face {
-		font-family:'mixlr_icons';
-		src:url(/fonts/mixlr_icons.eot?1449496384);
-		src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
+		font-family:'Haettenschweiler';
+		// src:url(/fonts/mixlr_icons.eot?1449496384);
+		// src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
 		font-weight:normal;
 		font-style:normal
 	}
@@ -9663,7 +9663,7 @@
 		display:none
 	}
 	@font-face {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		src:url(/fonts/mixlr_icons.eot?1449496384);
 		src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
 		font-weight:normal;
@@ -9800,7 +9800,7 @@
 		display:block
 	}
 	#settings .main_content label.broadcasting,#broadcast_show .main_content label.broadcasting,#showreel .main_content label.broadcasting {
-		font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+		font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
 		margin:30px 0 10px 0;
 		font-size:1em;
 		display:block
@@ -9814,7 +9814,7 @@
 		color:white;
 		text-shadow:none;
 		padding:1px 4px;
-		font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+		font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
 		font-size:1em
 	}
 	#settings .main_content table.broadcasting tr td,#broadcast_show .main_content table.broadcasting tr td,#showreel .main_content table.broadcasting tr td {
@@ -9864,7 +9864,7 @@
 		margin-top:10px
 	}
 	#settings .hints_copy ul,#broadcast_show .hints_copy ul,#showreel .hints_copy ul {
-		font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+		font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
 		color:#333;
 		margin-bottom:0
 	}
@@ -9878,7 +9878,7 @@
 		text-decoration:underline
 	}
 	#settings #title,#broadcast_show #title,#showreel #title {
-		font:"Helvetica Neue",Helvetica,Arial,sans-serif;
+		font:Helvetica Neue,Helvetica,Arial,sans-serif;
 		position:relative;
 		height:70px;
 		padding:0 0 65px 0;
@@ -10403,7 +10403,7 @@
 		padding-bottom:70px
 	}
 	.edit_premium .main_content h2,.edit_premium .main_content h3,.price_plans_receipts .main_content h2,.price_plans_receipts .main_content h3,.show_live_stream_url .main_content h2,.show_live_stream_url .main_content h3,.show_stats .main_content h2,.show_stats .main_content h3 {
-		font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+		font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
 		font-size:16px;
 		line-height:21px
 	}
@@ -10462,12 +10462,12 @@
 	}
 	.edit_premium .plan .trial_info h3,.price_plans_receipts .plan .trial_info h3,.show_live_stream_url .plan .trial_info h3,.show_stats .plan .trial_info h3 {
 		font-size:16px;
-		font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+		font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
 		color:#333
 	}
 	.edit_premium .plan .trial_info p,.price_plans_receipts .plan .trial_info p,.show_live_stream_url .plan .trial_info p,.show_stats .plan .trial_info p {
 		line-height:21px;
-		font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+		font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
 		font-size:13px;
 		margin-bottom:1em;
 		color:#333
@@ -10645,7 +10645,7 @@
 	}
 	.main_content.blocked_users table thead>tr>th,.main_content.moderators table thead>tr>th,.main_content.ignored_users table thead>tr>th {
 		color:#b3b3b3;
-		font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+		font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
 		font-size:13px;
 		text-align:right
 	}
@@ -10746,7 +10746,7 @@
 		color:black
 	}
 	.block_user_dialog .main_content h2 {
-		font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+		font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
 		font-size:13px;
 		line-height:21px
 	}
@@ -10763,7 +10763,7 @@
 	}
 	.block.button,.moderate.button,.ignore.button {
 		text-decoration:none;
-		font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+		font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
 		background-color:#f2555b;
 		color:white;
 		line-height:none;
@@ -10793,7 +10793,7 @@
 		color:#333;
 		font-size:16px;
 		line-height:21px;
-		font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+		font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
 		margin-bottom:0
 	}
 	.main_content.edit_chat h3.chat_state {
@@ -10871,7 +10871,7 @@
 		background:#36b4a7
 	}
 	.show_live_stream_url .main_content p.nb,.show_stats .main_content p.nb {
-		font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+		font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
 		font-size:14px;
 		line-height:1.5;
 		font-style:italic;
@@ -10933,7 +10933,7 @@
 	.show_stats p.nb {
 		font-style:italic;
 		font-size:13px;
-		font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+		font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
 		line-height:21px;
 		color:#f2555b;
 		border-top:1px solid #bfbfbf;
@@ -10941,7 +10941,7 @@
 		margin-top:20px
 	}
 	@font-face {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		src:url(/fonts/mixlr_icons.eot?1449496384);
 		src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
 		font-weight:normal;
@@ -10971,7 +10971,7 @@
 		color:red
 	}
 	@font-face {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		src:url(/fonts/mixlr_icons.eot?1449496384);
 		src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
 		font-weight:normal;
@@ -11007,7 +11007,7 @@
 		margin:0 auto
 	}
 	@font-face {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		src:url(/fonts/mixlr_icons.eot?1449496384);
 		src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
 		font-weight:normal;
@@ -11056,7 +11056,7 @@
 		margin:5px auto 10px auto
 	}
 	#friend_finder .loading>h3,#friend_finder .error>h3 {
-		font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+		font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
 		font-weight:normal;
 		line-height:1.2em;
 		font-size:1.308em;
@@ -11191,7 +11191,7 @@
 
 
 	@font-face {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		src:url(/fonts/mixlr_icons.eot?1449496384);
 		src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
 		font-weight:normal;
@@ -12026,7 +12026,7 @@
 		padding-right:20px;
 		padding-bottom:30px;
 		font-size:14px;
-		font-family:"Helvetica Neue",Helvetica,Arial,sans-serif
+		font-family:Helvetica Neue,Helvetica,Arial,sans-serif
 	}
 	.lt-ie9 #payment_flow {
 		margin-top:40px;
@@ -12048,7 +12048,7 @@
 		display:none
 	}
 	#payment_flow h2,#payment_flow h3,#payment_flow h4 {
-		font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+		font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
 		color:#f03e45;
 		font-size:18px;
 		line-height:1.5;
@@ -12367,7 +12367,7 @@
 		background-color:#ed1c24
 	}
 	@font-face {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		src:url(/fonts/mixlr_icons.eot?1449496384);
 		src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
 		font-weight:normal;
@@ -12401,7 +12401,7 @@
 		padding:0 5px 0 5px;
 		background:white;
 		color:gray;
-		font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+		font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
 		font-size:1em;
 		border:1px solid #f2f2f2;
 		max-width:300px;
@@ -12431,7 +12431,7 @@
 		right:5px
 	}
 	@font-face {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		src:url(/fonts/mixlr_icons.eot?1449496384);
 		src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
 		font-weight:normal;
@@ -12502,7 +12502,7 @@
 		margin-bottom:20px
 	}
 	@font-face {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		src:url(/fonts/mixlr_icons.eot?1449496384);
 		src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
 		font-weight:normal;
@@ -12527,13 +12527,13 @@
 		behavior:url(/PIE.htc?1405582389)
 	}
 	#category_follower>h1 {
-		font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+		font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
 		font-size:20px;
 		margin-bottom:0
 	}
 	#category_follower>.info {
 		color:gray;
-		font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+		font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
 		font-size:1.077em;
 		margin-bottom:20px
 	}
@@ -12597,7 +12597,7 @@
 		color:black
 	}
 	@font-face {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		src:url(/fonts/mixlr_icons.eot?1449496384);
 		src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
 		font-weight:normal;
@@ -12642,7 +12642,7 @@
 		margin-top:10px
 	}
 	@font-face {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		src:url(/fonts/mixlr_icons.eot?1449496384);
 		src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
 		font-weight:normal;
@@ -12667,7 +12667,7 @@
 		behavior:url(/PIE.htc?1405582389)
 	}
 	@font-face {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		src:url(/fonts/mixlr_icons.eot?1449496384);
 		src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
 		font-weight:normal;
@@ -13074,7 +13074,7 @@
 		background-color:#666
 	}
 	@font-face {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		src:url(/fonts/mixlr_icons.eot?1449496384);
 		src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
 		font-weight:normal;
@@ -13125,7 +13125,7 @@
 	#embed_artworkform .jcrop_errors p {
 		color:#ed1c24;
 		font-weight:bold;
-		font-family:"Helvetica Neue",Helvetica,Arial,sans-serif
+		font-family:Helvetica Neue,Helvetica,Arial,sans-serif
 	}
 	#embed_artworkform a#close_upload_form {
 		background:url(/images/embed_sprite.png?1405605063) no-repeat -143px -18px;
@@ -13985,7 +13985,7 @@
 		background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAadEVYdFNvZnR3YXJlAFBhaW50Lk5FVCB2My41LjEwMPRyoQAAAMdJREFUOE+tkgsNwzAMRMugEAahEAahEAZhEAqlEAZhEAohEAYh81X2dIm8fKpEspLGvudPOsUYpxE2BIJCroJmEW9qJ+MKaBFhEMNabSy9oIcIPwrB+afvAUFoK4H0tMaQ3XtlrggDhOVVMuT4E5MMG0FBbCEYzjYT7OxLEvIHQLY2zWwQ3D+9luyOQTfKDiFD3iUIfPk8VqrKjgAiSfGFPecrg6HN6m/iBcwiDAo7WiBeawa+Kwh7tZoSCGLMqwlSAzVDhoK+6vH4G0P5wdkAAAAASUVORK5CYII=)
 	}
 	@font-face {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		src:url(/fonts/mixlr_icons.eot?1449496384);
 		src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
 		font-weight:normal;
@@ -14656,7 +14656,7 @@
 		border-bottom:none
 	}
 	@font-face {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		src:url(/fonts/mixlr_icons.eot?1449496384);
 		src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
 		font-weight:normal;
@@ -15227,7 +15227,7 @@
 		background-color:white
 	}
 	@font-face {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		src:url(/fonts/mixlr_icons.eot?1449496384);
 		src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
 		font-weight:normal;
@@ -15449,7 +15449,7 @@
 		}
 	}
 	@font-face {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		src:url(/fonts/mixlr_icons.eot?1449496384);
 		src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
 		font-weight:normal;
@@ -15651,7 +15651,7 @@
 		margin:0;
 		margin-top:-1px;
 		color:rgba(0,0,0,0.5);
-		font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+		font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
 		font-size:15px;
 		line-height:35px
 	}
@@ -15685,7 +15685,7 @@
 		margin-bottom:0
 	}
 	@font-face {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		src:url(/fonts/mixlr_icons.eot?1449496384);
 		src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
 		font-weight:normal;
@@ -16010,7 +16010,7 @@
 		opacity:1.0
 	}
 	@font-face {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		src:url(/fonts/mixlr_icons.eot?1449496384);
 		src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
 		font-weight:normal;
@@ -16461,7 +16461,7 @@
 		}
 	}
 	@font-face {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		src:url(/fonts/mixlr_icons.eot?1449496384);
 		src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
 		font-weight:normal;
@@ -16973,7 +16973,7 @@
 		background:gray
 	}
 	@font-face {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		src:url(/fonts/mixlr_icons.eot?1449496384);
 		src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
 		font-weight:normal;
@@ -17104,10 +17104,10 @@
 		border-bottom-color:transparent
 	}
 	.tipsy {
-		font-family:"Helvetica Neue",Helvetica,Arial,sans-serif
+		font-family:Helvetica Neue,Helvetica,Arial,sans-serif
 	}
 	@font-face {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		src:url(/fonts/mixlr_icons.eot?1449496384);
 		src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
 		font-weight:normal;
@@ -17406,7 +17406,7 @@
 		border-color:gray
 	}
 	#broadcast_masthead .broadcaster_profile_image a.profile_image.hearted {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -17505,7 +17505,7 @@
 	#broadcast_masthead #mixlr_player_status.click_to_play .player_button:after {
 		top:2px;
 		left:5px;
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -18658,7 +18658,7 @@
 		opacity:1
 	}
 	#mobile_live_page_view .control-bar .control_bar_container .btn-container button.do-heart span:before {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -18677,7 +18677,7 @@
 		border:1px solid rgba(0,0,0,0.5)
 	}
 	#mobile_live_page_view .control-bar .control_bar_container .btn-container button.do-heart.fired span:after {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -19317,7 +19317,7 @@
 		z-index:0;
 		height:100%;
 		font-weight:normal;
-		font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+		font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
 		font-size:14px;
 		background:white
 	}
@@ -19359,7 +19359,7 @@
 		cursor:default
 	}
 	.broadcaster_details_sidebar .broadcaster_profile_image .profile_image.hearted {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -19694,7 +19694,7 @@
 		line-height:18px
 	}
 	#comment_header,#crowd_header,#share_header,#signup_header,#hints_header {
-		font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+		font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
 		font-size:13px
 	}
 	#comment_header,#crowd_header {
@@ -19744,7 +19744,7 @@
 		height:50px
 	}
 	#hints>.content p,.signup_overlay>.content p {
-		font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+		font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
 		font-size:24px;
 		line-height:1.2;
 		color:black;
@@ -19954,7 +19954,7 @@
 	}
 	.comment_list li.now_playing {
 		height:70px;
-		font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+		font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
 		font-size:1em
 	}
 	.comment_list li.now_playing .inner {
@@ -19994,14 +19994,14 @@
 		margin:0 55px 0 62px
 	}
 	.comment_list li.now_playing .inner .track_info_container h3 {
-		font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+		font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
 		font-size:1em;
 		margin-bottom:0;
 		color:#404040;
 		cursor:auto
 	}
 	.comment_list li.now_playing .inner .track_info_container .track_info {
-		font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+		font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
 		font-size:1em;
 		color:#999;
 		white-space:nowrap;
@@ -20148,7 +20148,7 @@
 		margin:0 55px 0 62px
 	}
 	.comment_list .comment_info h3 {
-		font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+		font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
 		font-size:1em;
 		margin-bottom:0;
 		line-height:1.4;
@@ -20162,7 +20162,7 @@
 		-o-user-select:text;
 		user-select:text;
 		word-wrap:break-word;
-		font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+		font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
 		color:gray;
 		font-size:1em;
 		line-height:1.4;
@@ -20552,7 +20552,7 @@
 		float:left;
 		height:50px;
 		border:1px solid #ccc;
-		font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+		font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
 		font-size:1em;
 		resize:none;
 		-ms-overflow-style:none;
@@ -20631,7 +20631,7 @@
 		-moz-border-radius:35px;
 		-webkit-border-radius:35px;
 		text-align:center;
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -21228,7 +21228,7 @@
 	}
 	#user_info .user_info_following_actions .user_info_following,#user_info .user_info_following_actions .user_info_followers {
 		display:block;
-		font-family:"Avenir LT W02 65 Medium","Helvetica Neue",Helvetica,arial,sans-serif;
+		font-family:"Avenir LT W02 65 Medium",Helvetica Neue,Helvetica,arial,sans-serif;
 		font-size:.923em;
 		text-align:center;
 		color:#b3b3b3;
@@ -21496,7 +21496,7 @@
 		clear:both
 	}
 	#user_info .user_info_bio p {
-		font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+		font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
 		font-size:1.231em;
 		line-height:1.5;
 		color:#4d4d4d;
@@ -21935,7 +21935,7 @@
 		color:rgba(0,0,0,0.5)
 	}
 	@font-face {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		src:url(/fonts/mixlr_icons.eot?1449496384);
 		src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
 		font-weight:normal;
@@ -22040,7 +22040,7 @@
 	.broadcast_landing_inner .mixlr_app_container p {
 		max-width:400px;
 		margin:0 auto;
-		font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+		font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
 		color:gray;
 		font-size:1em
 	}
@@ -22054,7 +22054,7 @@
 		background-color:#00b274;
 		font-size:25px;
 		text-transform:uppercase;
-		font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+		font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
 		margin:30px auto 20px;
 		text-align:center;
 		display:block;
@@ -22091,7 +22091,7 @@
 	.broadcast_landing_inner .mixlr_legacy_container p {
 		max-width:140px;
 		margin:0 auto;
-		font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+		font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
 		color:gray;
 		font-size:1.077em
 	}
@@ -22099,7 +22099,7 @@
 		background-color:#b3b3b3;
 		font-size:15px;
 		text-transform:uppercase;
-		font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+		font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
 		margin:10px auto 20px;
 		text-align:center;
 		display:block;
@@ -22111,7 +22111,7 @@
 		background-color:#666
 	}
 	@font-face {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		src:url(/fonts/mixlr_icons.eot?1449496384);
 		src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
 		font-weight:normal;
@@ -22162,7 +22162,7 @@
 		margin:0 auto
 	}
 	@font-face {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		src:url(/fonts/mixlr_icons.eot?1449496384);
 		src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
 		font-weight:normal;
@@ -22382,7 +22382,7 @@
 		width:180px
 	}
 	@font-face {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		src:url(/fonts/mixlr_icons.eot?1449496384);
 		src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
 		font-weight:normal;
@@ -22505,7 +22505,7 @@
 		display:block
 	}
 	@font-face {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		src:url(/fonts/mixlr_icons.eot?1449496384);
 		src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
 		font-weight:normal;
@@ -22533,7 +22533,7 @@
 		display:none
 	}
 	.lt-ie9 a.account_star {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		speak:none;
 		font-style:normal;
 		font-weight:normal;
@@ -22594,7 +22594,7 @@
 	}
 	@media screen and (min-width:31.25em) {
 		a.account_star {
-			font-family:'mixlr_icons';
+			font-family:'Haettenschweiler';
 			speak:none;
 			font-style:normal;
 			font-weight:normal;
@@ -22655,7 +22655,7 @@
 		}
 	}
 	@font-face {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		src:url(/fonts/mixlr_icons.eot?1449496384);
 		src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
 		font-weight:normal;
@@ -22728,7 +22728,7 @@
 		height:64px
 	}
 	.create_events>.loading_overlay.choose>h2,.edit_events>.loading_overlay.choose>h2 {
-		font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+		font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
 		font-size:24px;
 		line-height:1.4;
 		color:#f2555b;
@@ -22815,7 +22815,7 @@
 		position:absolute
 	}
 	.create_events .title h1,.edit_events .title h1 {
-		font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+		font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
 		font-size:24px;
 		line-height:35px;
 		color:white;
@@ -23181,7 +23181,7 @@
 	}
 	.events_show #main_content header h1 {
 		background:white;
-		font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+		font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
 		font-size:14px;
 		padding:4.5px;
 		padding-left:33px;
@@ -23253,7 +23253,7 @@
 		width:auto;
 		height:20px;
 		background:#f03e45;
-		font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+		font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
 		font-size:10px;
 		padding:0 8px;
 		color:white;
@@ -23426,7 +23426,7 @@
 		margin:0;
 		position:relative;
 		font-size:24px;
-		font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+		font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
 		color:white;
 		padding-top:15px;
 		padding-bottom:15px
@@ -23442,7 +23442,7 @@
 		padding:20px 0
 	}
 	#confirm_cancel_event>.caveat>p,#confirm_delete_event>.caveat>p {
-		font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+		font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
 		font-size:14px;
 		max-width:320px;
 		margin:0 auto
@@ -23795,7 +23795,7 @@
 		line-height:26px;
 		display:block;
 		font-size:14px;
-		font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+		font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
 		text-overflow:ellipsis;
 		overflow:hidden;
 		max-width:218px;
@@ -24671,7 +24671,7 @@
 		padding:0;
 		overflow:auto;
 		position:relative;
-		font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+		font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
 		font-size:14px
 	}
 	.lt-ie9 #event_show_main {
@@ -25143,7 +25143,7 @@
 		float:right
 	}
 	@font-face {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		src:url(/fonts/mixlr_icons.eot?1449496384);
 		src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
 		font-weight:normal;
@@ -25406,7 +25406,7 @@
 		margin-bottom:0
 	}
 	@font-face {
-		font-family:'mixlr_icons';
+		font-family:'Haettenschweiler';
 		src:url(/fonts/mixlr_icons.eot?1449496384);
 		src:url("/fonts/mixlr_icons.eot?#iefix") format("embedded-opentype"),url("/fonts/mixlr_icons.svg#mixlr_icons") format("svg"),url(/fonts/mixlr_icons.woff?1449496384) format("woff"),url(/fonts/mixlr_icons.ttf?1449496384) format("truetype");
 		font-weight:normal;
@@ -25925,7 +25925,7 @@
 		line-height:26px;
 		display:table-cell;
 		font-size:14px;
-		font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+		font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
 		text-overflow:ellipsis;
 		overflow:hidden;
 		max-width:218px;
