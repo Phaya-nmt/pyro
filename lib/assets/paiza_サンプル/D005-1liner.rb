@@ -1,1 +1,0 @@
-puts gets.split.map(&:to_i).inject{|m, n| m.step(m+n*9, n).to_a}.join(" ")

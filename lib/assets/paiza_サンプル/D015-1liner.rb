@@ -1,1 +1,0 @@
-puts gets.to_i.downto(1).to_a

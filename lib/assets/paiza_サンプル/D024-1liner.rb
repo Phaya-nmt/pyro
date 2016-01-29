@@ -1,1 +1,0 @@
-puts Array.new(2){gets.to_i}.inject(180){|kaku, i| kaku - i}

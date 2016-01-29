@@ -1,1 +1,0 @@
-puts Array.new(7){gets.chomp}.count("no")

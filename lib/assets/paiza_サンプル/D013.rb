@@ -1,3 +1,0 @@
-m, n = gets.split.map(&:to_i)
-
-puts "#{m / n} #{m % n}"

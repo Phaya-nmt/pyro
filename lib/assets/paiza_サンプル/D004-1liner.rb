@@ -1,1 +1,0 @@
-puts "Hello " + Array.new(gets.to_i){gets.chomp}.join(",") + "."
