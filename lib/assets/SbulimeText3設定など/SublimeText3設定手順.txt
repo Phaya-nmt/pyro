@@ -1,0 +1,100 @@
+SublimeText起動して [ctrl]+[`]
+----以下をコピペ----
+import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)
+----この上まで----
+
+SublimeText3を再起動
+
+以下のパッケージをインストール [ctrl]+[shift]+[p]→[pack inst]
+ConvertToUTF8
+IMESupport
+ViewInBrowser
+AutoFileName
+BracketHighLighter
+TrailingSpaces
+Terminal
+SublimeLinter
+SublimeLinter-ruby
+SublimeCodeIntel
+HTML-CSS-JS Prettify    ※要 Node.js
+
+SublimeText3を再起動
+
+ユーザー設定とパッケージの設定
+---- Preferences - settings-user ----
+{
+	"color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
+	"font_face": "Myrica M",
+	"default_encoding": "UTF-8",
+	"draw_white_space": "all",
+	"fallback_encoding": "UTF-8",
+	"font_size": 12,
+	"highlight_line": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"show_encoding": true,
+	"tab_size": 2,
+	"translate_tabs_to_spaces": true
+}
+
+------------------------------------
+
+---- TralingSpaces ----
+{
+	"trailing_spaces_regexp": "　|[ \t]+"
+}
+-----------------------
+
+---- ViewInBrowser ----
+{
+	"nt": {
+		"win32": {
+			"firefox": "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe -new-tab",
+			"iexplore": "C:\\Program Files\\Internet Explorer\\iexplore.exe",
+			"chrome": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"
+		}
+	},
+
+	"browser": "iexplore"
+}
+-----------------------
+
+
+---- Terminal ----
+{
+  "terminal": "cmd",
+  "parameters": []
+}
+----------------------
+
+---- SublimeLinter ----
+...省略
+        "linters": {
+            "ruby": {
+                "@disable": false,
+                "args": ["-Ku"],
+                "excludes": []
+            }
+        },
+...省略
+-----------------------
+
+
+動作確認：以下を新規ファイルにコピペして「test.html」で保存。
+----------------------
+<!DOCTYPE html>
+<html lang="ja"
+<head>
+	<meta charset="UTF-8">
+	<title>あああ</title>
+</head>
+<body>
+	中に空白が　　　　4つある
+	中に空白が　 　 交互に２つある
+　　左に空白が２つある
+	右に空白が２つある　　
+</body>
+</html>
+----------------------

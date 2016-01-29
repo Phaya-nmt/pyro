@@ -1,0 +1,5 @@
+yamada kenji 90 80 60
+tanaka kazuo 80 90 70
+sato taro 60 50 70
+takahashi nobuo 70 80 90
+suzuki hideo 100 60 70

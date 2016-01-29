@@ -1,0 +1,1 @@
+puts Array.new(5){gets.to_i}.minmax.reverse

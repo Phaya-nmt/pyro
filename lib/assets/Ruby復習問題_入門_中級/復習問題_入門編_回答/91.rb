@@ -1,0 +1,26 @@
+puts <<EOS
+
+以下の空欄（a）～（c）を書き換えて、プログラムを完成させましょう。
+---正解となる実行結果---
+Fixnum
+130.0 is Float
+130 is Fixnum
+Float < Numeric
+false
+---ここまで---
+
+EOS
+
+num = 100
+puts num.class
+
+num = num + 30.0
+puts "#{num} is #{num.class}"
+
+num = num.to_i
+puts "#{num} is #{num.class}"
+
+num = num.to_f
+puts "#{num.class} < #{num.class.superclass}"
+
+puts num.integer?

@@ -1,0 +1,1 @@
+puts gets.split.inject{|s, i| s[i.to_i-1]}

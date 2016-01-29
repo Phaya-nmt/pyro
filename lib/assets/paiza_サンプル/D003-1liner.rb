@@ -1,0 +1,1 @@
+puts ([gets.to_i] * 9).zip(1..9).map{|v| v[0] * v[1]}.join(" ")
